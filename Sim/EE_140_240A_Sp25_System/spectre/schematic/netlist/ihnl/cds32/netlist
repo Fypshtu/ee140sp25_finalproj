@@ -1,3 +1,0 @@
-    E0 (VDDA VSS VREF VSS) vcvs gain=10 type=vcvs min=0 max=1.8
-ends AREG_mockup_schematic
-// End of subcircuit definition.

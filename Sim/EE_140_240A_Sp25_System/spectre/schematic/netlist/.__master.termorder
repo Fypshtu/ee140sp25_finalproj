@@ -1,10 +1,13 @@
 "EE_140_240A_Final_Project.VBATDIV4_mockup.schematic.termorder" (("VBAT" "VBATDIV4" "VSS") ("VBAT" "VBATDIV4" "VSS"))
 "ee140_gsi.clk_nonoverlapping.schematic.termorder" nil
+"project.bandgap.schematic.termorder" (("VBAT" "VBG" "VPTAT" "VREF_ADC" "VSS") ("VBAT" "VBG" "VPTAT" "VREF_ADC" "VSS"))
 "EE_140_240A_Final_Project.opamp_mockup.schematic.termorder" (("VDD" "VINN" "VINP" "VOUT" "VSS") ("VDD" "VINN" "VINP" "VOUT" "VSS"))
 "EE_140_240A_Final_Project.NA2HDX0_dupe.schematic.termorder" nil
+"swy.AREG_mockup.schematic.termorder" (("VBAT" "VDDA" "VREF" "VSS") ("VBAT" "VDDA" "VREF" "VSS"))
 "EE_140_240A_Final_Project.mux_mockup.schematic.termorder" (("IN<3>" "IN<2>" "IN<1>" "IN<0>" "OUT" "S<1>" "S<0>" "VDD" "VSS") ("IN<0>" "IN<1>" "IN<2>" "IN<3>" "OUT" "S<1>" "S<0>" "VDD" "VSS"))
 "ee140_gsi.nor2_dupe.schematic.termorder" (("a" "b" "out" "VDD" "VSS") ("VDD" "VSS" "a" "b" "out"))
 "ee140_gsi.SAR_FSM_HW.schematic.termorder" (("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion") ("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion"))
+"swy.BGR_mockup.schematic.termorder" nil
 "proj.MUX21.schematic.termorder" (("out" "GND" "VDDA" "a0" "a1" "sel") ("GND" "VDDA" "a0" "a1" "out" "sel"))
 "EE_140_240A_Final_Project.mux2_mockup.schematic.termorder" (("IN<1>" "IN<0>" "S" "VDD" "VOUT" "VSS") ("IN<0>" "IN<1>" "S" "VDD" "VOUT" "VSS"))
 "ee140_gsi.OR2HDX0_dupe.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
@@ -19,6 +22,7 @@
 "proj.inverter_adc.schematic.termorder" (("out" "GND" "VDD" "in") ("GND" "VDD" "in" "out"))
 "EE_140_240A_Final_Project.PGA_mockup.schematic.termorder" nil
 "EE_140_240A_Final_Project.EE_140_240A_Sp25_DigitalTop.schematic.termorder" nil
+"swy.DREG_mockup.schematic.termorder" (("VBAT" "VDDA" "VREF" "VSS") ("VBAT" "VDDA" "VREF" "VSS"))
 "EE_140_240A_Final_Project.BGR_mockup.schematic.termorder" nil
 "ee140_gsi.ADC_mockup.schematic.termorder" (("CLK" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "VDD" "VIN" "VREF" "VSS" "COMPARE" "LOAD") ("CLK" "COMPARE" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDD" "VIN" "VREF" "VSS"))
 "ee140_gsi.invr_dupe.schematic.termorder" (("in" "out" "VDD" "VSS") ("VDD" "VSS" "in" "out"))
@@ -37,7 +41,7 @@
 "proj.switch_TG.schematic.termorder" (("Vout" "GND" "VDD" "sel" "Vin") ("GND" "VDD" "Vin" "Vout" "sel"))
 "EE_140_240A_Final_Project.DREG_mockup.schematic.termorder" nil
 "EE_140_240A_Final_Project.AREG_mockup.schematic.termorder" (("VBAT" "VDDA" "VREF" "VSS") ("VBAT" "VDDA" "VREF" "VSS"))
-"EE_140_240A_Final_Project.ADC_mockup.schematic.termorder" (("CLK" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "VDD" "VIN" "VREF" "VSS" "COMPARE" "LOAD") ("CLK" "COMPARE" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDD" "VIN" "VREF" "VSS"))
+"EE_140_240A_Final_Project.ADC_mockup.schematic.termorder" (("CLK" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "VDD" "VIN" "VREF" "VSS" "COMPARE" "LOAD" "VDAC") ("CLK" "COMPARE" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDAC" "VDD" "VIN" "VREF" "VSS"))
 "proj.comparator.schematic.termorder" (("OUT" "GND" "VDDA" "CK" "Vin1" "Vin2") ("CK" "GND" "OUT" "VDDA" "Vin1" "Vin2"))
 "EE_140_240A_Final_Project.SAR_DFF.schematic.termorder" (("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "RESETB" "DONE" "VDD" "VSS") ("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "DONE" "RESETB" "VDD" "VSS"))
 "ee140_gsi.PGA_mockup.schematic.termorder" nil
@@ -49,5 +53,6 @@
 "EE_140_240A_Final_Project.invr_dupe.schematic.termorder" (("in" "out" "VDD" "VSS") ("VDD" "VSS" "in" "out"))
 "ee140_gsi.SAR_DFF.schematic.termorder" (("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "RESETB" "DONE" "VDD" "VSS") ("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "DONE" "RESETB" "VDD" "VSS"))
 "ee140_gsi.XNOR_gate.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
+"lab6.5T.schematic.termorder" (("Vout" "V+" "V-" "Vin") ("V+" "V-" "Vin" "Vout"))
 "EE_140_240A_Final_Project.clk_nonoverlapping.schematic.termorder" nil
 "EE_140_240A_Final_Project.nor2_dupe.schematic.termorder" (("a" "b" "out" "VDD" "VSS") ("VDD" "VSS" "a" "b" "out"))

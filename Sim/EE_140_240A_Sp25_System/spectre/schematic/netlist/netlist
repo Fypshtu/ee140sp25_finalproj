@@ -167,31 +167,90 @@ subckt mux_mockup_schematic IN\<3\> IN\<2\> IN\<1\> IN\<0\> OUT S\<1\> \
 ends mux_mockup_schematic
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
+// Library name: lab6
+// Cell name: 5T
+// View name: schematic
+subckt lab6_5T_schematic Vout V\+ V\- Vin
+    NM0 (Vout V\- net6 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM2 (net7 V\+ net6 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM1 (net6 net2 0 0) nfet_g5v0d10v5 w=(12u) l=600n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    NM4 (net4 net2 0 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM3 (net2 net2 0 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    R0 (Vin net3) resistor r=54K
+    PM1 (net7 net7 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM0 (Vout net7 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM3 (net2 net4 net3 Vin) pfet_g5v0d10v5 w=(24u) l=600n as=6.36p \
+        ad=6.36p ps=48.53u pd=48.53u m=(1)*(1)
+    PM2 (net4 net4 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+ends lab6_5T_schematic
+// End of subcircuit definition.
+
+// Library name: project
+// Cell name: bandgap
+// View name: schematic
+subckt bandgap VBAT VBG VPTAT VREF_ADC VSS
+    E0 (net2 VSS VBG VSS) vcvs gain=1 min=0 max=3.2
+    Q1 (net1 net1 VSS VSS) npn_05v5_W1p00L1p00 area=1p m=10
+    Q0 (VD1 VD1 VSS VSS) npn_05v5_W1p00L1p00 area=1p m=1
+    R8 (VREF_ADC VSS) resistor r=5K
+    R7 (net2 VREF_ADC) resistor r=1K
+    R2 (VPTAT VSS) resistor r=64K
+    R0 (VBG VD2) resistor r=47K
+    R1 (VD2 net1) resistor r=6K
+    I2 (net4 VD2 VD1 VBAT) lab6_5T_schematic
+    PM2 (VPTAT net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+    PM1 (VD1 net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+    PM0 (VBG net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+ends bandgap
+// End of subcircuit definition.
+
+// Library name: swy
 // Cell name: BGR_mockup
 // View name: schematic
-subckt BGR_mockup_schematic VBAT VBG VPTAT VREF_ADC VSS
-parameters TSTART_A TR_A
-    V0 (VBG VSS) vsource type=pulse edgetype=halfsine val0=0 val1=1.2 \
-        delay=TSTART_A rise=TR_A
-    V1 (VREF_ADC VSS) vsource dc=1 type=dc
-ends BGR_mockup_schematic
+subckt swy_BGR_mockup_schematic VBAT VBG VPTAT VREF_ADC VSS
+    I0 (VBAT VBG VPTAT VREF_ADC VSS) bandgap
+ends swy_BGR_mockup_schematic
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
+// Library name: swy
 // Cell name: AREG_mockup
 // View name: schematic
-subckt AREG_mockup_schematic VBAT VDDA VREF VSS
-    E0 (VDDA VSS VREF VSS) vcvs gain=10 type=vcvs min=0 max=1.8
-ends AREG_mockup_schematic
+subckt swy_AREG_mockup_schematic VBAT VDDA VREF VSS
+    R5 (VBAT VDDA) resistor r=10K
+    R4 (VDDA net2) resistor r=1K
+    R2 (net2 VSS) resistor r=2K
+    C3 (VDDA VSS) capacitor c=1n
+    C5 (net1 VSS) capacitor c=100p
+    PM1 (VDDA net1 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p \
+        ad=13.25p ps=100.53u pd=100.53u m=(50)*(1)
+    E1 (net1 VSS net2 VREF) vcvs gain=1000 min=0 max=3.2
+ends swy_AREG_mockup_schematic
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
+// Library name: swy
 // Cell name: DREG_mockup
 // View name: schematic
-subckt DREG_mockup_schematic VBAT VDDD VREF VSS
-    E0 (VDDD VSS VREF VSS) vcvs gain=10 type=vcvs min=0 max=1.8
-ends DREG_mockup_schematic
+subckt swy_DREG_mockup_schematic VBAT VDDA VREF VSS
+    R5 (VBAT VDDA) resistor r=10K
+    R4 (VDDA net2) resistor r=1K
+    R2 (net2 VSS) resistor r=2K
+    C3 (VDDA VSS) capacitor c=1n
+    C5 (net1 VSS) capacitor c=100p
+    PM1 (VDDA net1 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p \
+        ad=13.25p ps=100.53u pd=100.53u m=(50)*(1)
+    E1 (net1 VSS net2 VREF) vcvs gain=1000 min=0 max=3.2
+ends swy_DREG_mockup_schematic
 // End of subcircuit definition.
 
 // Library name: EE_140_240A_Final_Project
@@ -355,9 +414,9 @@ ends comparator
 // Cell name: ADC_mockup
 // View name: schematic
 subckt ADC_mockup_schematic CLK COMP_OUT D\<7\> D\<6\> D\<5\> D\<4\> \
-        D\<3\> D\<2\> D\<1\> D\<0\> VDD VIN VREF VSS COMPARE LOAD
+        D\<3\> D\<2\> D\<1\> D\<0\> VDD VIN VREF VSS COMPARE LOAD VDAC
     X_CAPDAC (D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> LOAD \
-        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup_schematic C0=1f
+        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup_schematic
     I3 (net1 VSS VDD CLK) inverter_adc
     I2 (COMP_OUT VSS VDD net1 VREF VDAC) comparator
 ends ADC_mockup_schematic
@@ -369,18 +428,17 @@ ends ADC_mockup_schematic
 subckt EE_140_240A_Sp25_Student_Submission_schematic CLK_ADC CLK_PGA1 \
         CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
         D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> G\<0\> S\<1\> S\<0\> \
-        VBAT VBATDIV4 VDDA VDDD VPTAT VSS
+        VBAT VBATDIV4 VDAC VDDA VDDD VPTAT VSS
     X_PGA (CLK_PGA1 CLK_PGA2 G\<2\> G\<1\> G\<0\> VDDA MUX_OUT PGA_OUT \
         VSS) PGA_mockup_schematic C0=1f
     X_MUX (VPTAT VBATDIV4 EXT_IN\<1\> EXT_IN\<0\> MUX_OUT S\<1\> S\<0\> \
         VDDA VSS) mux_mockup_schematic
-    X_BGR (VBAT VREF_REG VPTAT VREF_ADC VSS) BGR_mockup_schematic \
-        TSTART_A=0 TR_A=1u
-    X_AREG (VBAT VDDA VREF_REG VSS) AREG_mockup_schematic
-    X_DREG (VBAT VDDD VREF_REG VSS) DREG_mockup_schematic
+    I8 (VBAT VREF_REG VPTAT VREF_ADC VSS) swy_BGR_mockup_schematic
+    I9 (VBAT VDDA VREF_REG VSS) swy_AREG_mockup_schematic
+    I10 (VBAT VDDD VREF_REG VSS) swy_DREG_mockup_schematic
     X_DIV4 (VBAT VBATDIV4 VSS) VBATDIV4_mockup_schematic
     X_ADC (CLK_ADC COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
-        D\<0\> VDDA PGA_OUT VREF_ADC VSS CLK_PGA1 CLK_PGA2) \
+        D\<0\> VDDA PGA_OUT VREF_ADC VSS CLK_PGA1 CLK_PGA2 VDAC) \
         ADC_mockup_schematic
 ends EE_140_240A_Sp25_Student_Submission_schematic
 // End of subcircuit definition.
@@ -667,7 +725,7 @@ ends EE_140_240A_Sp25_DigitalTop_schematic
 // View name: schematic
 X_STUDENT (CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
         D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> \
-        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA VDDD VPTAT 0) \
+        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDAC VDDA VDDD VPTAT 0) \
         EE_140_240A_Sp25_Student_Submission_schematic
 V4 (VDDD_IDEAL 0) vsource type=pulse edgetype=halfsine val0=0 \
         val1=VDDD_IDEAL delay=0 rise=TR_D

@@ -4,7 +4,7 @@
 // View name: schematic
 X_STUDENT (CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
         D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> \
-        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA VDDD VPTAT 0) \
+        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDAC VDDA VDDD VPTAT 0) \
         EE_140_240A_Sp25_Student_Submission_schematic
 V4 (VDDD_IDEAL 0) vsource type=pulse edgetype=halfsine val0=0 \
         val1=VDDD_IDEAL delay=0 rise=TR_D

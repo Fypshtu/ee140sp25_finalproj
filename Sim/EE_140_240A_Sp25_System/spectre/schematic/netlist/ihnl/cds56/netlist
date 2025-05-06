@@ -1,0 +1,17 @@
+    E0 (net2 VSS VBG VSS) vcvs gain=1 min=0 max=3.2
+    Q1 (net1 net1 VSS VSS) npn_05v5_W1p00L1p00 area=1p m=10
+    Q0 (VD1 VD1 VSS VSS) npn_05v5_W1p00L1p00 area=1p m=1
+    R8 (VREF_ADC VSS) resistor r=5K
+    R7 (net2 VREF_ADC) resistor r=1K
+    R2 (VPTAT VSS) resistor r=64K
+    R0 (VBG VD2) resistor r=47K
+    R1 (VD2 net1) resistor r=6K
+    I2 (net4 VD2 VD1 VBAT) lab6_5T_schematic
+    PM2 (VPTAT net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+    PM1 (VD1 net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+    PM0 (VBG net4 VBAT VBAT) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p \
+        ad=1.59p ps=12.53u pd=12.53u m=(1)*(1)
+ends bandgap
+// End of subcircuit definition.

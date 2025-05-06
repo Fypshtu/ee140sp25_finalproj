@@ -5,38 +5,38 @@ Copyright (C) 1989-2023 Cadence Design Systems, Inc. All rights reserved worldwi
 
 Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
 
-User: ee140-aam   Host: eda-1.EECS.Berkeley.EDU   HostID: 2080902A   PID: 1184697
-Memory  available: 659.4180 GB  physical: 810.7774 GB
+User: ee140-aam   Host: eda-1.EECS.Berkeley.EDU   HostID: 2080902A   PID: 3665788
+Memory  available: 634.5763 GB  physical: 810.7774 GB
 Linux   : Red Hat Enterprise Linux release 8.10 (Ootpa)
 CPU Type: AMD EPYC 9454 48-Core Processor
         Socket: Processors [Frequency] (Hyperthreaded Processor)
-        0:       0 [1568.5] (),  1 [1500.0] (),  2 [1500.0] (),  3 [1500.0] (),  4 [1500.0] ()
-                 5 [1500.0] (),  6 [1500.0] (),  7 [1500.0] (),  8 [1500.0] (),  9 [1500.0] ()
-                10 [1500.0] (), 11 [2100.0] (), 12 [1500.0] (), 13 [1500.0] (), 14 [1500.0] ()
-                15 [1500.0] (), 16 [1500.0] (), 17 [2011.2] (), 18 [1500.0] (), 19 [1500.0] ()
-                20 [1500.0] (), 21 [3800.2] (), 22 [1500.0] (), 23 [1500.0] (), 24 [1500.0] ()
-                25 [1500.0] (), 26 [1500.0] (), 27 [1500.0] (), 28 [1500.0] (), 29 [1500.0] ()
-                30 [1520.0] (), 31 [1500.0] (), 32 [1500.0] (), 33 [1500.0] (), 34 [1500.0] ()
-                35 [1500.0] (), 36 [1500.0] (), 37 [1500.0] (), 38 [1500.0] (), 39 [1500.0] ()
-                40 [1500.0] (), 41 [1500.0] (), 42 [1500.0] (), 43 [1500.0] (), 44 [1500.0] ()
-                45 [1500.0] (), 46 [1500.0] (), 47 [1500.0] (), 48 [2079.4] (), 49 [1500.0] ()
+        0:       0 [3800.1] (),  1 [1500.0] (),  2 [1500.0] (),  3 [3800.2] (),  4 [3800.2] ()
+                 5 [1500.0] (),  6 [1500.0] (),  7 [2750.0] (),  8 [1500.0] (),  9 [1500.0] ()
+                10 [1900.1] (), 11 [1500.0] (), 12 [1500.0] (), 13 [1500.0] (), 14 [2100.0] ()
+                15 [1500.0] (), 16 [2100.0] (), 17 [1500.0] (), 18 [1500.0] (), 19 [2750.0] ()
+                20 [1519.8] (), 21 [1500.0] (), 22 [2100.0] (), 23 [1500.0] (), 24 [1500.0] ()
+                25 [1500.0] (), 26 [3800.2] (), 27 [1500.0] (), 28 [3800.2] (), 29 [1500.0] ()
+                30 [1519.6] (), 31 [1500.0] (), 32 [1500.0] (), 33 [3800.3] (), 34 [1500.0] ()
+                35 [1500.0] (), 36 [3800.2] (), 37 [2100.0] (), 38 [1500.0] (), 39 [1500.0] ()
+                40 [1500.0] (), 41 [1500.0] (), 42 [1500.0] (), 43 [1500.0] (), 44 [3800.2] ()
+                45 [1500.0] (), 46 [1500.0] (), 47 [2100.0] (), 48 [3800.2] (), 49 [1500.0] ()
                 50 [1500.0] (), 51 [1500.0] (), 52 [1500.0] (), 53 [1500.0] (), 54 [1500.0] ()
-                55 [1500.0] (), 56 [1500.0] (), 57 [1500.0] (), 58 [1500.0] (), 59 [1500.0] ()
+                55 [3799.7] (), 56 [1500.0] (), 57 [1500.0] (), 58 [2100.0] (), 59 [3800.2] ()
                 60 [1500.0] (), 61 [1500.0] (), 62 [1500.0] (), 63 [1500.0] (), 64 [1500.0] ()
-                65 [1500.0] (), 66 [1500.0] (), 67 [1500.0] (), 68 [3800.2] (), 69 [1500.0] ()
+                65 [1500.0] (), 66 [1500.0] (), 67 [1500.0] (), 68 [1500.0] (), 69 [1500.0] ()
                 70 [1500.0] (), 71 [1500.0] (), 72 [1500.0] (), 73 [1500.0] (), 74 [1500.0] ()
                 75 [1500.0] (), 76 [1500.0] (), 77 [1500.0] (), 78 [1500.0] (), 79 [1500.0] ()
-                80 [1500.0] (), 81 [1500.0] (), 82 [1500.0] (), 83 [2750.0] (), 84 [1500.0] ()
-                85 [1500.0] (), 86 [1500.0] (), 87 [1500.0] (), 88 [1500.0] (), 89 [2100.0] ()
-                90 [1500.0] (), 91 [1500.0] (), 92 [1500.0] (), 93 [1500.0] (), 94 [1500.0] ()
+                80 [1500.0] (), 81 [1500.0] (), 82 [3800.2] (), 83 [1500.0] (), 84 [1500.0] ()
+                85 [1500.0] (), 86 [3800.2] (), 87 [1500.0] (), 88 [1500.0] (), 89 [1500.0] ()
+                90 [1500.0] (), 91 [2750.0] (), 92 [1500.0] (), 93 [1500.0] (), 94 [1500.0] ()
                 95 [1500.0] ()
         
-System load averages (1min, 5min, 15min) : 5.3 %, 7.2 %, 10.7 %
+System load averages (1min, 5min, 15min) : 19.4 %, 21.4 %, 21.7 %
 Hyperthreading is enabled
 HPC is enabled
 
 
-Simulating `input.scs' on eda-1.EECS.Berkeley.EDU at 7:15:38 PM, Mon May 5, 2025 (process id: 1184697).
+Simulating `input.scs' on eda-1.EECS.Berkeley.EDU at 10:23:13 AM, Tue May 6, 2025 (process id: 3665788).
 Current working directory: /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/Sim/EE_140_240A_Sp25_System/spectre/schematic/netlist
 Environment variable:
     SPECTRE_DEFAULTS=-E
@@ -46,37 +46,742 @@ Command line:
         +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade +adespetkn=adespe
 
 Licensing Information:
-[19:15:38.062426] Configured Lic search path (21.01-s002): 5280@license-srv.eecs.berkeley.edu:5280@bisc.EECS.Berkeley.EDU
+[10:23:13.062290] Configured Lic search path (21.01-s002): 5280@license-srv.eecs.berkeley.edu:5280@bisc.EECS.Berkeley.EDU
+
+Licensing Information:
+[10:23:23.011792] Periodic Lic check successful
+
+Loading /share/instsww/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /share/instsww/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_o_sh.so ...
+Loading /share/instsww/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /share/instsww/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /share/instsww/cadence/SPECTRE211/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/Sim/EE_140_240A_Sp25_System/spectre/schematic/netlist/input.scs
+Reading link:  /share/instsww/cadence/SPECTRE211
+Reading file:  /share/instsww/cadence/SPECTRE.21.10.751/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /usr/include/stdc-predef.h
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/config.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/param.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/bip.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/tm_bip.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpva.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpva_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvb_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvc_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpva5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpva5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvb5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvb5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvc5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvc5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpve.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpve_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvf_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvg.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvg_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpve5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpve5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvf5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvf5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvg5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpvg5_dbc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qnv5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/bip/qpv5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/cap.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tm_cap.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmm4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmm5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmm4t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmm5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/ctmm5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/ctmm5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm3t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm4t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmm6t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh3t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh4t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh6t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmmh4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmmh5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmmh4t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cdmmh5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/ctmmh5t.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/ctmmh5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh4l.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh5l.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cmmh6l.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csandwt3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csandwt4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csandwt5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cp1sub.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cp1suba.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cp1subp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf2p.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf3p.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft6.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf3a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf4a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csf5a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft4a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft5a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/csft6a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/p_cap.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc_pmos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvcti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvcti_nmos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc5_pmos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc5ti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/mosvc5ti_nmos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cif3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cif4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/cif5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_25v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_60v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_100v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_200v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_m25v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_m60v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_m100v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/cap/tag_m200v.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/dio.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/tm_dio.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnw.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dp5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnw5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dhw2a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dhw2.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dhw3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpa.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwnsj1_7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwnsj1_10.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwnsj1_16c.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwpsj1_7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwpsj1_10.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwpsj1_16c.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dpp6.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dpp7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnp7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/ds5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/ds5a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnt.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnu.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpta.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdptb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpu.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnpa.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnpati.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dza.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dzati.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dzbti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/drxw.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnw5mva.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dnn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnha.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnhb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnhc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnhd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnhe.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdnhf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpha.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdphb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdphc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdphd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdphe.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdphf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpe.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/dio/dfwdpf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/mos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/tm_mos.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nn_jf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ne.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pe.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ne5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pe5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nmva.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmva.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/peti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pe5ti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhsj1_7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhsj1_10.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhsj1_16c.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phsj1_7.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phsj1_10.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phsj1_16c.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nn5_jf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvta.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvtb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvta.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvtb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvu.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvu.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nel.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pel.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ndhvt.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pe_5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pel_5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pe5_5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nisj1_16.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nisj1_16_m1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nisj1_16_q1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ndhvta.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nd5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nd5_mos1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nd5_mos2.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvra.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvrb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvrc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvrd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvre.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/nhvrf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvra.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvrb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvrc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvrd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvre.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/phvrf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmvb.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmvc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmvd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmve.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/pmvf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ndhvrd.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/mos/ndhvrf.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/res.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/tm_res.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnw.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnw5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdp5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnp1_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1s.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1s_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnp1h.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnp1h_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1k1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1k1_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1k1a.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rpp1k1a_3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rm1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rm2.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rm3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rm4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rm5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rmtp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rmtpl.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rmrdl.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rctdn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsildn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rctdp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsildp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rctp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsilnp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsilpp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/pfuse.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnw_scr.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rnw5_scr.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbdn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbdp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbnp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbpp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbpp1k1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbdn5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rsbdp5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rm1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rm2.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rm3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rm4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rm5.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rmtp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rmtpl.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rvia1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rvia2.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rvia3.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rvia4.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rviatp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rviatpl.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rctdn.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rctdp.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rctp1.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/p_rp1s.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rxw2ti.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdn5_dpc.scs
+Reading file:  /home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/models/res/rdn5_pw4.scs
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sky130.lib.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_nfet_01v8/sky130_fd_pr__esd_nfet_01v8.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_pfet_g5v0d10v5/sky130_fd_pr__esd_pfet_g5v0d10v5.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__tt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d16v0/sky130_fd_pr__nfet_g5v0d16v0.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/esd_nfet_g5v0d10v5/sky130_fd_pr__esd_nfet_g5v0d10v5.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/corners/tt/nonfet.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8/sky130_fd_pr__nfet_01v8__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8/sky130_fd_pr__pfet_01v8__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_01v8_lvt/sky130_fd_pr__nfet_01v8_lvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_lvt/sky130_fd_pr__pfet_01v8_lvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_hvt/sky130_fd_pr__pfet_01v8_hvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_g5v0d10v5/sky130_fd_pr__nfet_g5v0d10v5__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d10v5/sky130_fd_pr__pfet_g5v0d10v5__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_05v0_nvt/sky130_fd_pr__nfet_05v0_nvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_03v3_nvt/sky130_fd_pr__nfet_03v3_nvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/r+c/res_typical__cap_typical.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sky130_fd_pr__model__r+c.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/r+c.mrp1monte.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_generic_nd/sky130_fd_pr__res_generic_nd.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_generic_pd/sky130_fd_pr__res_generic_pd.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parameters/typical.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/r+c/res_typical__cap_typical__lin.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/capacitors/sky130_fd_pr__model__cap_vpp.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_l1m1m2_noshield/sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_l1m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2_noshield/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_01p8x01p8_m1m2_noshield/sky130_fd_pr__cap_vpp_01p8x01p8_m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_m1m2_shieldl1/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2_shieldl1/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2_shieldl1/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_l1m1m2_shieldpo_floatm3/sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_shieldpo_floatm3.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3/sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2_shieldpom3/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2_shieldpom3.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_03p9x03p9_m1m2_shieldl1_floatm3/sky130_fd_pr__cap_vpp_03p9x03p9_m1m2_shieldl1_floatm3.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_l1m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_noshield_o1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_m1m2_noshield/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o2.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_02p4x04p6_m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2_noshield/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/npn_05v5/sky130_fd_pr__npn_05v5__t.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/npn_05v5/sky130_fd_pr__npn_05v5_W1p00L1p00.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/npn_05v5/sky130_fd_pr__npn_05v5_W1p00L2p00.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/npn_11v0/sky130_fd_pr__npn_11v0_W1p00L1p00.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pnp_05v5/sky130_fd_pr__pnp_05v5_W3p40L3p40.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/corners/tt/specialized_cells.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_latch/sky130_fd_pr__special_nfet_latch__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass/sky130_fd_pr__special_nfet_pass__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass_flash/sky130_fd_pr__special_nfet_pass_flash__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_pfet_pass/sky130_fd_pr__special_pfet_pass__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass_lvt/sky130_fd_pr__special_nfet_pass_lvt__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass_lvt/sky130_fd_pr__special_nfet_pass_lvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/all.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parameters/lod.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__diode_ps2nw.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pw2nd_05v5/sky130_fd_pr__diode_pw2nd_05v5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pd2nw_05v5/sky130_fd_pr__diode_pd2nw_05v5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pd2nw_05v5_hvt/sky130_fd_pr__diode_pd2nw_05v5_hvt.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pw2nd_11v0/sky130_fd_pr__diode_pw2nd_11v0.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pd2nw_11v0/sky130_fd_pr__diode_pd2nw_11v0.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pw2nd_05v5_nvt/sky130_fd_pr__diode_pw2nd_05v5_nvt.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pw2nd_05v5_lvt/sky130_fd_pr__diode_pw2nd_05v5_lvt.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pd2nw_05v5_lvt/sky130_fd_pr__diode_pd2nw_05v5_lvt.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__diode_pw2dn.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__diode_ps2dn.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__parasitic__diode_pw2dn.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pnp_05v5/sky130_fd_pr__pnp_05v5_W0p68L0p68.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_g5v0d16v0/sky130_fd_pr__pfet_g5v0d16v0__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_var_lvt/sky130_fd_pr__cap_var_lvt.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_l1m1m2_noshield/sky130_fd_pr__cap_vpp_08p6x07p8_l1m1m2_noshield_o1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/capacitors/sky130_fd_pr__model__cap_mim.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_mim_m3/sky130_fd_pr__cap_mim_m3_1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_mim_m3/sky130_fd_pr__cap_mim_m3_2.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/capacitors/sky130_fd_pr__model__cap_vpp_only_mos.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o1nhv.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o1phv.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sonos_p/begin_of_life/mm.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sonos_e/begin_of_life/mm.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/head.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass/sky130_fd_pr__special_nfet_pass.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_latch/sky130_fd_pr__special_nfet_latch.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_pfet_pass/sky130_fd_pr__special_pfet_pass.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/special_nfet_pass_flash/sky130_fd_pr__special_nfet_pass_flash.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/capacitors/sky130_fd_pr__model__cap_vpp_only_pq.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_m1m2m3_shieldl1/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2m3_shieldl1/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2m3_shieldl1/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2m3_shieldm4/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldm4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3_shieldpom4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4/sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_06p8x06p1_m1m2m3_shieldl1m4/sky130_fd_pr__cap_vpp_06p8x06p1_m1m2m3_shieldl1m4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/capacitors/sky130_fd_pr__model__cap_vpp_only_p.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m4_noshield/sky130_fd_pr__cap_vpp_11p5x11p7_m1m4_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2m3m4_shieldm5/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldm5.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4/sky130_fd_pr__cap_vpp_08p6x07p8_m1m2m3_shieldl1m5_floatm4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2m3_shieldl1m5_floatm4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3_shieldl1m5_floatm4.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5/sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5/sky130_fd_pr__cap_vpp_11p3x11p8_l1m1m2m3m4_shieldm5_nhv__base.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5_x.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p9x06p1_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_02p9x06p1_m1m2m3m4_shieldl1_fingercap2.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p7x11p1_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_02p7x11p1_m1m2m3m4_shieldl1_fingercap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p7x21p1_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_02p7x21p1_m1m2m3m4_shieldl1_fingercap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p7x41p1_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_02p7x41p1_m1m2m3m4_shieldl1_fingercap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_02p7x06p1_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_02p7x06p1_m1m2m3m4_shieldl1_fingercap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_11p3x11p3_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_11p3x11p3_m1m2m3m4_shieldl1_wafflecap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_05p9x05p9_m1m2m3m4_shieldl1/sky130_fd_pr__cap_vpp_05p9x05p9_m1m2m3m4_shieldl1_wafflecap.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield/sky130_fd_pr__cap_vpp_44p7x23p1_pol1m1m2m3m4m5_noshield.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sky130_fd_pr__model__linear.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__res_po.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po_0p35.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po_0p69.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po_1p41.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po_2p85.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po_5p73.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_xhigh_po/sky130_fd_pr__res_xhigh_po__base.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po_0p35.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po_0p69.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po_1p41.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po_2p85.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/res_high_po/sky130_fd_pr__res_high_po_5p73.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_g5v0d10v5/sky130_fd_pr__rf_nfet_g5v0d10v5.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8_lvt/sky130_fd_pr__rf_nfet_01v8_lvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8/sky130_fd_pr__rf_nfet_01v8.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8/sky130_fd_pr__rf_pfet_01v8.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8_mvt/sky130_fd_pr__rf_pfet_01v8_mvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/corners/tt/rf.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8/sky130_fd_pr__rf_nfet_01v8_b__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8/sky130_fd_pr__rf_nfet_01v8_b.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8_lvt/sky130_fd_pr__rf_nfet_01v8_lvt_b__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8_lvt/sky130_fd_pr__rf_nfet_01v8_lvt_b.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_g5v0d10v5/sky130_fd_pr__rf_nfet_g5v0d10v5_b__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_g5v0d10v5/sky130_fd_pr__rf_nfet_g5v0d10v5_b.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8/sky130_fd_pr__rf_pfet_01v8_b__tt.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8/sky130_fd_pr__rf_pfet_01v8_b.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8/sky130_fd_pr__rf_nfet_01v8__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_01v8_lvt/sky130_fd_pr__rf_nfet_01v8_lvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_nfet_g5v0d10v5/sky130_fd_pr__rf_nfet_g5v0d10v5__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8/sky130_fd_pr__rf_pfet_01v8__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8_mvt/sky130_fd_pr__rf_pfet_01v8_mvt__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_01v8_mvt/sky130_fd_pr__pfet_01v8_mvt.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/rf_pfet_01v8_mvt/sky130_fd_pr__rf_pfet_01v8_mvt__mismatch.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_20v0/sky130_fd_pr__pfet_20v0__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_20v0/sky130_fd_pr__pfet_20v0__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/pfet_20v0/sky130_fd_pr__pfet_20v0__parasitic__diode_pw2dn.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0/sky130_fd_pr__nfet_20v0__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0/sky130_fd_pr__nfet_20v0__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__diode_pw2dn__extended_drain.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/diode_pw2nd_05v5/sky130_fd_pr__diode_pw2nd_05v5__extended_drain.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_iso/sky130_fd_pr__nfet_20v0_iso__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/parasitics/sky130_fd_pr__model__parasitic__diode_ps2dn__extended_drain.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_reverse_iso/sky130_fd_pr__nfet_20v0_reverse_iso__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_zvt/sky130_fd_pr__nfet_20v0_zvt__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_zvt/sky130_fd_pr__nfet_20v0_zvt__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_zvt/sky130_fd_pr__nfet_20v0_zvt__parasitic__diode_ps2dn__extended_drain.model.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_nvt/sky130_fd_pr__nfet_20v0_nvt__tt_discrete.corner.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_nvt/sky130_fd_pr__nfet_20v0_nvt__subcircuit.pm3.spice
+Reading file:  /home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/cells/nfet_20v0_nvt/sky130_fd_pr__nfet_20v0_nvt__parasitic__diode_ps2dn.model.spice
+Time for NDB Parsing: CPU = 807.017 ms, elapsed = 11.524 s.
+Time accumulated: CPU = 930.074 ms, elapsed = 11.5241 s.
+Peak resident memory used = 181 Mbytes.
+
+TCP: opening server port eda-1.EECS.Berkeley.EDU:59829
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SFE-466): "input.scs" 95: `R0' is variable resistance which is not safely shorted according to rabsshort threshold.
+
+Time for Elaboration: CPU = 111.407 ms, elapsed = 114.686 ms.
+Time accumulated: CPU = 1.04163 s, elapsed = 11.6389 s.
+Peak resident memory used = 198 Mbytes.
 
 
-Notice from spectre during license check-out.
-    Waiting for available license for Spectre.
-    Waiting for available license for Spectre.
+Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option.
 
 
-Spectre received SIGHUP sent from PID: 1184693 with UID: 30391.
-Process hierarchy of PID 1184693 :
-    PID        COMMAND
-    1184693    /share/instsww/cadence/IC618/tools/bin/64bit/cdsServIpc -c 53183 -n 41 -r 0 -x cd /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/Sim/EE_140_240A_Sp25_System/spectre/schematic/netlist ; ./runSimulation 
-    2630474    /share/instsww/cadence/IC618/tools/dfII/bin/64bit/virtuoso 
-    2608053    bash 
-    2608040    mate-terminal 
-    224591     mate-panel 
-    224317     /usr/bin/mate-session 
-    224314     dbus-run-session /etc/X11/xinit/Xsession /usr/bin/mate-session 
-    224206     xrdp-sesexec 
-    3077       /usr/sbin/xrdp-sesman --nodaemon 
-About to end simulation, please wait for a moment...
 
-Error found by spectre during license check-out.
-    ERROR (SPECTRE-25): 
-        Simulation stopped by ADE, reason is unknown.
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 1 ( dangling 1, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. V4 is removed.
 
 
-Aggregate audit (7:25:45 PM, Mon May 5, 2025):
-Time used: CPU = 254 ms, elapsed = 607 s (10m  6.8s), util. = 41.9e-03%.
-Time spent in licensing: elapsed = 480 s (8m  0.5s), percentage of total = 79.2%.
-Peak memory used = 107 Mbytes.
-Simulation started at: 7:15:38 PM, Mon May 5, 2025, ended at: 7:25:45 PM, Mon May 5, 2025, with elapsed time (wall clock): 607 s (10m  6.8s).
-spectre completes with 1 error, 0 warnings, and 2 notices.
-spectre terminated prematurely due to fatal error.
+  Total removed nodes 1 ( dangling nodes 1, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. VDDD_IDEAL is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 19.566 ms, elapsed = 19.6741 ms.
+Time accumulated: CPU = 1.06127 s, elapsed = 11.6586 s.
+Peak resident memory used = 203 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to the following 10 nodes:
+        B<3>
+        B<1>
+        B<0>
+        B<2>
+        B<5>
+        Further occurrences of this notice will be suppressed.
+Warning from spectre during heuristic topology check - set topcheck=fixall to fix all floating nodes.
+    WARNING (SPECTRE-7): No DC path from node `X_STUDENT.X_PGA.net2' to ground.
+    WARNING (SPECTRE-7): No DC path from node `X_STUDENT.X_PGA.net016' to ground.
+    WARNING (SPECTRE-7): No DC path from node `X_STUDENT.X_PGA.net1' to ground.
+    WARNING (SPECTRE-7): No DC path from node `X_STUDENT.X_PGA.net014' to ground.
+    WARNING (SPECTRE-7): No DC path from node `X_STUDENT.X_PGA.net015' to ground.
+        Further occurrences of this warning will be suppressed.
+
+
+Global user options:
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = psf
+               save = selected
+           currents = selected
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 715
+                bjt 2     
+              bsim4 1241  
+          capacitor 25    
+            isource 1     
+              relay 20    
+           resistor 16    
+               vcvs 26    
+            vsource 6     
+
+Analysis and control statement inventory:
+               info 4     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+
+Notice from spectre during initial setup.
+    1 resistor is changed to resistance form because its value is less than 'rthresh'.
+    APS enabled.
+    1 notice suppressed.
+    5 warnings suppressed.
+
+Licensing Information:
+[10:23:25.016587] Periodic Lic check successful
+
+
+Notice from spectre.
+    Multithreading enabled: 8 threads in the system with 96 available processors.
+
+Time for parsing: CPU = 284.126 ms, elapsed = 94.1591 ms.
+Time accumulated: CPU = 1.34549 s, elapsed = 11.7529 s.
+Peak resident memory used = 213 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 4, consider adding +mt=4 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 us)
+************************************************
+Trying `homotopy = gmin' for initial conditions.
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(X_GSI.X_SAR.X<2>) = -12.9113 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+DC simulation time: CPU = 2.15844 s, elapsed = 271.582 ms.
+
+Opening the SST2 file ../psf/tran.tran.trn ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 us
+    step = 20 ns
+    maxstep = 200 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Output and IC/nodeset summary:
+                 save   29      (voltage)
+
+    tran: time = 510 ns      (2.55 %), step = 15.24 ns    (76.2 m%)
+    tran: time = 1.501 us     (7.5 %), step = 5.004 ns      (25 m%)
+    tran: time = 2.504 us    (12.5 %), step = 5.828 ns    (29.1 m%)
+    tran: time = 3.504 us    (17.5 %), step = 5.872 ns    (29.4 m%)
+    tran: time = 4.503 us    (22.5 %), step = 5.802 ns      (29 m%)
+    tran: time = 5.504 us    (27.5 %), step = 5.826 ns    (29.1 m%)
+    tran: time = 6.504 us    (32.5 %), step = 5.873 ns    (29.4 m%)
+    tran: time = 7.504 us    (37.5 %), step = 5.839 ns    (29.2 m%)
+    tran: time = 8.505 us    (42.5 %), step = 5.876 ns    (29.4 m%)
+    tran: time = 9.505 us    (47.5 %), step = 5.876 ns    (29.4 m%)
+    tran: time = 10.5 us     (52.5 %), step = 5.818 ns    (29.1 m%)
+    tran: time = 11.5 us     (57.5 %), step = 5.818 ns    (29.1 m%)
+    tran: time = 12.5 us     (62.5 %), step = 5.886 ns    (29.4 m%)
+    tran: time = 13.5 us     (67.5 %), step = 5.878 ns    (29.4 m%)
+    tran: time = 14.5 us     (72.5 %), step = 5.694 ns    (28.5 m%)
+    tran: time = 15.5 us     (77.5 %), step = 5.802 ns      (29 m%)
+    tran: time = 16.5 us     (82.5 %), step = 5.836 ns    (29.2 m%)
+    tran: time = 17.5 us     (87.5 %), step = 5.873 ns    (29.4 m%)
+    tran: time = 18.5 us     (92.5 %), step = 5.826 ns    (29.1 m%)
+    tran: time = 19.5 us     (97.5 %), step = 5.876 ns    (29.4 m%)
+Number of accepted tran steps =             25853
+
+Maximum value achieved for any signal of each quantity: 
+V: V(X_STUDENT.I10.PM1.msky130_fd_pr__pfet_g5v0d10v5:int_b) = 3.237 V
+I: I(X_STUDENT.I9.E1:p) = 12.79 A
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (23.1 %)      1 (61.9 %)      2 (16.8 %)      3 (19.9 %)
+         4 (30.7 %)      5 (13.2 %)      6 (13.0 %)      7 (15.1 %)
+         8 (33.7 %)      9 (37.7 %)     10 (17.4 %)     11 (22.5 %)
+        12 (10.9 %)     13 (15.0 %)     14 (48.5 %)     15 (17.9 %)
+        16 (15.0 %)     17 (23.6 %)     18 (14.2 %)     19 (15.0 %)
+        20 (30.6 %)     21 (12.1 %)     22 (21.2 %)     23 (22.1 %)
+        24 (32.0 %)     25 (13.8 %)     26 (27.6 %)     27 (9.5 %)
+        28 (24.0 %)     29 (6.5 %)      30 (19.0 %)     31 (35.3 %)
+        32 (22.3 %)     33 (23.1 %)     34 (10.0 %)     35 (9.8 %)
+        36 (33.3 %)     37 (12.5 %)     38 (20.1 %)     39 (25.2 %)
+        40 (16.9 %)     41 (22.3 %)     42 (28.4 %)     43 (17.2 %)
+        44 (27.7 %)     45 (19.1 %)     46 (6.5 %)      47 (10.5 %)
+        48 (16.5 %)     49 (17.4 %)     50 (12.0 %)     51 (8.7 %)
+        52 (11.3 %)     53 (8.1 %)      54 (6.4 %)      55 (14.6 %)
+        56 (28.6 %)     57 (19.8 %)     58 (7.7 %)      59 (7.9 %)
+        60 (14.9 %)     61 (13.7 %)     62 (13.6 %)     63 (13.5 %)
+        64 (15.2 %)     65 (19.8 %)     66 (9.0 %)      67 (9.3 %)
+        68 (20.1 %)     69 (41.3 %)     70 (40.5 %)     71 (49.2 %)
+        72 (28.3 %)     73 (18.8 %)     74 (41.3 %)     75 (8.9 %)
+        76 (11.7 %)     77 (6.5 %)      78 (36.1 %)     79 (27.9 %)
+        80 (33.3 %)     81 (22.0 %)     82 (27.7 %)     83 (7.5 %)
+        84 (12.0 %)     85 (14.4 %)     86 (28.3 %)     87 (17.8 %)
+        88 (11.6 %)     89 (20.6 %)     90 (65.0 %)     91 (23.4 %)
+        92 (29.7 %)     93 (22.7 %)     94 (7.8 %)      95 (12.9 %)
+        Total: 1979.3%
+Initial condition solution time: CPU = 2.15877 s, elapsed = 271.626 ms.
+Intrinsic tran analysis time:    CPU = 91.6136 s, elapsed = 11.4774 s.
+Total time required for tran analysis `tran': CPU = 93.8346 s (1m  33.8s), elapsed = 11.7574 s, util. = 798%.
+Time accumulated: CPU = 95.3725 s (1m  35.4s), elapsed = 23.5352 s.
+Peak resident memory used = 229 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+Licensing Information:
+Lic Summary:
+[10:23:36.347946] Cdslmd servers:5280@license-srv.eecs.berkeley.edu:5280@bisc.EECS.Berkeley.EDU
+[10:23:36.347968] Feature usage summary:
+[10:23:36.347968] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (10:23:36 AM, Tue May 6, 2025):
+Time used: CPU = 95.8 s (1m  35.8s), elapsed = 23.6 s, util. = 406%.
+Time spent in licensing: elapsed = 10.1 s, percentage of total = 42.7%.
+Peak memory used = 229 Mbytes.
+Simulation started at: 10:23:13 AM, Tue May 6, 2025, ended at: 10:23:36 AM, Tue May 6, 2025, with elapsed time (wall clock): 23.6 s.
+spectre completes with 0 errors, 9 warnings, and 9 notices.

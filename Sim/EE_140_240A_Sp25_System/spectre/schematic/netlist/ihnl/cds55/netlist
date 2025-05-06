@@ -1,0 +1,21 @@
+    NM0 (Vout V\- net6 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM2 (net7 V\+ net6 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM1 (net6 net2 0 0) nfet_g5v0d10v5 w=(12u) l=600n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    NM4 (net4 net2 0 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM3 (net2 net2 0 0) nfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    R0 (Vin net3) resistor r=54K
+    PM1 (net7 net7 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM0 (Vout net7 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM3 (net2 net4 net3 Vin) pfet_g5v0d10v5 w=(24u) l=600n as=6.36p \
+        ad=6.36p ps=48.53u pd=48.53u m=(1)*(1)
+    PM2 (net4 net4 Vin Vin) pfet_g5v0d10v5 w=(6u) l=600n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+ends lab6_5T_schematic
+// End of subcircuit definition.

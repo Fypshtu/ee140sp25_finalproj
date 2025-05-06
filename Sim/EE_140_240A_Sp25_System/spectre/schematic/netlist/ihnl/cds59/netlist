@@ -1,0 +1,10 @@
+    R5 (VBAT VDDA) resistor r=10K
+    R4 (VDDA net2) resistor r=1K
+    R2 (net2 VSS) resistor r=2K
+    C3 (VDDA VSS) capacitor c=1n
+    C5 (net1 VSS) capacitor c=100p
+    PM1 (VDDA net1 VBAT VBAT) pfet_g5v0d10v5 w=(50u) l=500n as=13.25p \
+        ad=13.25p ps=100.53u pd=100.53u m=(50)*(1)
+    E1 (net1 VSS net2 VREF) vcvs gain=1000 min=0 max=3.2
+ends swy_DREG_mockup_schematic
+// End of subcircuit definition.

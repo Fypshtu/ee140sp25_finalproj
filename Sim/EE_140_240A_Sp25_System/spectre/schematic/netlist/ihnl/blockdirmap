@@ -1,4 +1,4 @@
-CADENCE IHNL111455
+CADENCE IHNL111460
 
 EE_140_240A_Final_Project AND2HDX0_dupe schematic cds24
 EE_140_240A_Final_Project invr_dupe schematic cds25
@@ -7,9 +7,6 @@ EE_140_240A_Final_Project OR2HDX0_dupe schematic cds27
 EE_140_240A_Final_Project opamp_mockup schematic cds28
 EE_140_240A_Final_Project PGA_mockup schematic cds29
 EE_140_240A_Final_Project mux_mockup schematic cds30
-EE_140_240A_Final_Project BGR_mockup schematic cds31
-EE_140_240A_Final_Project AREG_mockup schematic cds32
-EE_140_240A_Final_Project DREG_mockup schematic cds33
 EE_140_240A_Final_Project VBATDIV4_mockup schematic cds34
 EE_140_240A_Final_Project capdac_mockup schematic cds36
 EE_140_240A_Final_Project ADC_mockup schematic cds37
@@ -30,3 +27,8 @@ proj strongARM_latch schematic cds51
 proj comparator schematic cds52
 proj MUX21 schematic cds53
 proj MUX41 schematic cds54
+lab6 5T schematic cds55
+project bandgap schematic cds56
+swy BGR_mockup schematic cds57
+swy AREG_mockup schematic cds58
+swy DREG_mockup schematic cds59

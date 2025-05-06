@@ -1,0 +1,5 @@
+
+// Library name: lab6
+// Cell name: 5T
+// View name: schematic
+subckt lab6_5T_schematic Vout V\+ V\- Vin

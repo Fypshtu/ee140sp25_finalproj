@@ -174,9 +174,9 @@
                                 <SimpleProp Name="showEdgeBrowser" Value="0" Type="boolValue" />
                                 <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_y" Value="-0.328340134941566" Type="double" />
+                                <SimpleProp Name="zoom_y" Value="-2.81818547150146" Type="double" />
                                 <SimpleProp Name="zoom_width" Value="2.00000000000000E-05" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="3.57364151346543" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="5.41389458646871" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
@@ -189,11 +189,11 @@
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
                                             <SimpleProp Name="label" Value="V" Type="stringValue" />
                                             <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="majDivisions" Value="2" Type="intValue" />
+                                            <SimpleProp Name="majDivisions" Value="1" Type="intValue" />
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                            <SimpleProp Name="maxScale" Value="3.24530137852386" Type="doubleValue" />
+                                            <SimpleProp Name="maxScale" Value="2.59570911496725" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
-                                            <SimpleProp Name="minScale" Value="-0.328340134941566" Type="doubleValue" />
+                                            <SimpleProp Name="minScale" Value="-2.81818547150146" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
                                             <SimpleProp Name="scaledUnit" Value="" Type="stringValue" />
                                             <SimpleProp Name="scalerMode" Value="AutoScale" Type="axisScalerModeValue" />
@@ -1164,9 +1164,9 @@
                                 <SimpleProp Name="showEdgeBrowser" Value="0" Type="boolValue" />
                                 <SimpleProp Name="stripNumber" Value="1" Type="intValue" />
                                 <SimpleProp Name="zoom_x" Value="0.00000000000000" Type="double" />
-                                <SimpleProp Name="zoom_y" Value="-0.306056144453646" Type="double" />
+                                <SimpleProp Name="zoom_y" Value="-0.225684384512808" Type="double" />
                                 <SimpleProp Name="zoom_width" Value="2.00000000000000E-05" Type="double" />
-                                <SimpleProp Name="zoom_height" Value="3.54924422953161" Type="double" />
+                                <SimpleProp Name="zoom_height" Value="2.58567567510096" Type="double" />
                                 <SimpleProp Name="isZoomed" Value="false" Type="bool" />
                                 <IndexedProp Name="depAxisList">
                                     <ObjectProp>
@@ -1179,11 +1179,11 @@
                                             <SimpleProp Name="freeze" Value="0" Type="boolValue" />
                                             <SimpleProp Name="label" Value="V" Type="stringValue" />
                                             <SimpleProp Name="labelWithAxisNumber" Value="0" Type="boolValue" />
-                                            <SimpleProp Name="majDivisions" Value="2" Type="intValue" />
+                                            <SimpleProp Name="majDivisions" Value="1" Type="intValue" />
                                             <SimpleProp Name="majorDelta" Value="0" Type="doubleValue" />
-                                            <SimpleProp Name="maxScale" Value="3.24318808507796" Type="doubleValue" />
+                                            <SimpleProp Name="maxScale" Value="2.35999129058815" Type="doubleValue" />
                                             <SimpleProp Name="minDivisions" Value="10" Type="intValue" />
-                                            <SimpleProp Name="minScale" Value="-0.306056144453646" Type="doubleValue" />
+                                            <SimpleProp Name="minScale" Value="-0.225684384512808" Type="doubleValue" />
                                             <SimpleProp Name="modifier" Value="Magnitude" Type="modifierValue" />
                                             <SimpleProp Name="scaledUnit" Value="" Type="stringValue" />
                                             <SimpleProp Name="scalerMode" Value="AutoScale" Type="axisScalerModeValue" />
@@ -1277,7 +1277,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;7&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;7&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1386,7 +1386,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;6&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;6&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1495,7 +1495,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;5&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;5&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1604,7 +1604,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;4&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;4&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1713,7 +1713,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;3&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;3&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1822,7 +1822,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;2&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;2&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -1931,7 +1931,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;1&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;1&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />
@@ -2040,7 +2040,7 @@
                                                     <SimpleProp Name="_leafAnalysisTypeName" Value="tran" Type="string" />
                                                     <SimpleProp Name="_name" Value="expression" Type="string" />
                                                     <SimpleProp Name="_alias" Value="expression" Type="string" />
-                                                    <SimpleProp Name="_expression" Value='leafValue( t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;0&gt;&quot; )' Type="string" />
+                                                    <SimpleProp Name="_expression" Value='leafValue(t_adc_bits_analog &quot;bit&quot; &quot;/D&lt;0&gt;&quot;)' Type="string" />
                                                     <ObjectProp Name="_root">
                                                         <Object Class="wsParamExprToken">
                                                             <SimpleProp Name="_consumerId" Value="0" Type="int" />

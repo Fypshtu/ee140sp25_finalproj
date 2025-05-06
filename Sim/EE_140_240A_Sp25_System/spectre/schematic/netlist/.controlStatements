@@ -8,8 +8,8 @@ finalTimeOP info what=oppoint where=rawfile
 modelParameter info what=models where=rawfile
 element info what=inst where=rawfile
 outputParameter info what=output where=rawfile
-save X_STUDENT.PGA_OUT X_STUDENT.MUX_OUT VDDD VDDA EXT_IN\<0\> D\<7\> \
-    D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> COMP CLK_PGA2 CLK_ADC \
-    B\<7\> B\<6\> B\<5\> B\<4\> B\<3\> B\<2\> B\<1\> B\<0\> \
-    X_GSI.RESETB_BUF 
+save X_STUDENT.VREF_REG X_STUDENT.PGA_OUT X_STUDENT.MUX_OUT VDDD VDDA \
+    VBATDIV4 EXT_IN\<0\> D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+    D\<0\> COMP CLK_PGA2 CLK_ADC B\<7\> B\<6\> B\<5\> B\<4\> B\<3\> B\<2\> \
+    B\<1\> B\<0\> X_GSI.RESETB_BUF X_STUDENT.VREF_ADC VDAC 
 saveOptions options save=selected currents=selected

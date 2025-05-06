@@ -1,0 +1,5 @@
+
+// Library name: swy
+// Cell name: BGR_mockup
+// View name: schematic
+subckt swy_BGR_mockup_schematic VBAT VBG VPTAT VREF_ADC VSS

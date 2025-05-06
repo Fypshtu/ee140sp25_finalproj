@@ -7,10 +7,13 @@ hnlLastStopCellInfo = '(
                           ( "analogLib" "res" "spectre" "28" "1706675303" )
                           ( "sky130_fd_pr_main" "pfet_01v8" "spectre" "50" "1746483767" )
                           ( "sky130_fd_pr_main" "nfet_01v8" "spectre" "50" "1746483766" )
+                          ( "sky130_fd_pr_main" "npn_05v5" "spectre" "49" "1746483768" )
+                          ( "sky130_fd_pr_main" "nfet_g5v0d10v5" "spectre" "50" "1746483766" )
+                          ( "sky130_fd_pr_main" "pfet_g5v0d10v5" "spectre" "50" "1746483767" )
                           ( "analogLib" "vpulse" "spectre" "34" "1706675303" )
-                          ( "analogLib" "vdc" "spectre" "33" "1706675303" )
                           ( "analogLib" "ipulse" "spectre" "33" "1706675303" )
                           ( "analogLib" "vsource" "spectre" "79" "1706675303" )
+                          ( "analogLib" "vdc" "spectre" "33" "1706675303" )
                        )
 hnlLastTopViewWasConfig = 0
 hnlLastMaxNameLength = 1024
@@ -1717,6 +1720,9 @@ hnlLastLibInfo = '(
                     ( "ee140_gsi" "1745098988" )
                    ( "EE_140_240A_Final_Project" "1746483762" )
                    ( "proj" "1745257662" )
+                   ( "lab6" "1746505744" )
+                   ( "project" "1746505366" )
+                   ( "swy" "1746504943" )
                   )
 hnlLastConstants = '(
                       "P_CELSIUS0"

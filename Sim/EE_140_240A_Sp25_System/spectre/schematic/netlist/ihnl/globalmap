@@ -1,9 +1,13 @@
 CADENCE IHNL11140
 $model
 ee140_gsi/XNOR_gate/schematic XNOR_gate
+swy/AREG_mockup/schematic swy_AREG_mockup_schematic
+swy/DREG_mockup/schematic swy_DREG_mockup_schematic
+project/bandgap/schematic bandgap
 EE_140_240A_Final_Project/PGA_mockup/schematic PGA_mockup_schematic
 EE_140_240A_Final_Project/VBATDIV4_mockup/schematic VBATDIV4_mockup_schematic
 ee140_gsi/SAR_FSM_HW/schematic SAR_FSM_HW
+swy/BGR_mockup/schematic swy_BGR_mockup_schematic
 EE_140_240A_Final_Project/BGR_mockup/schematic BGR_mockup_schematic
 ee140_gsi/DFRRSHDX0_dupe/schematic DFRRSHDX0_dupe
 EE_140_240A_Final_Project/OR2HDX0_dupe/schematic OR2HDX0_dupe_schematic
@@ -17,6 +21,7 @@ EE_140_240A_Final_Project/invr_dupe/schematic invr_dupe_schematic
 ee140_gsi/mux2_mockup/schematic mux2_mockup
 EE_140_240A_Final_Project/DFRRSHDX0_dupe/schematic DFRRSHDX0_dupe_schematic
 EE_140_240A_Final_Project/opamp_mockup/schematic opamp_mockup_schematic
+lab6/5T/schematic lab6_5T_schematic
 ee140_gsi/capdac_mockup/schematic capdac_mockup
 EE_140_240A_Final_Project/XNOR_gate/schematic XNOR_gate_schematic
 EE_140_240A_Final_Project/SAR_DFF/schematic SAR_DFF_schematic

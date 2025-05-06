@@ -1,10 +1,10 @@
 ( ( model
-( "BGR_mockup" "BGR_mockup_schematic" )
+( "BGR_mockup" "swy_BGR_mockup_schematic" )
 ( "PGA_mockup" "PGA_mockup_schematic" )
 ( "EE_140_240A_Sp25_Student_Submission" "EE_140_240A_Sp25_Student_Submission_schematic" )
 ( "ADC_mockup" "ADC_mockup_schematic" )
-( "AREG_mockup" "AREG_mockup_schematic" )
-( "DREG_mockup" "DREG_mockup_schematic" )
+( "AREG_mockup" "swy_AREG_mockup_schematic" )
+( "DREG_mockup" "swy_DREG_mockup_schematic" )
 ( "VBATDIV4_mockup" "VBATDIV4_mockup_schematic" )
 ( "mux_mockup" "mux_mockup_schematic" )
  )

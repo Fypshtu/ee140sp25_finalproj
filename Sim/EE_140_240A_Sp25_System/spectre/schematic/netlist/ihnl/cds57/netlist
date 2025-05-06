@@ -1,0 +1,3 @@
+    I0 (VBAT VBG VPTAT VREF_ADC VSS) bandgap
+ends swy_BGR_mockup_schematic
+// End of subcircuit definition.

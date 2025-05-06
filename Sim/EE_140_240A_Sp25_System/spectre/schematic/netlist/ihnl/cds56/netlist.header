@@ -1,0 +1,5 @@
+
+// Library name: project
+// Cell name: bandgap
+// View name: schematic
+subckt bandgap VBAT VBG VPTAT VREF_ADC VSS

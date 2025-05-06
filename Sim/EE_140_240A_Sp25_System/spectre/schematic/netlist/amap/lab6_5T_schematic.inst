@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"NM0n NM2n NM1n NM4n NM3n" "sky130_fd_pr_main_nfet_g5v0d10v5_spectre"
+"R0n" "analogLib_res_spectre"
+"PM1n PM0n PM3n PM2n" "sky130_fd_pr_main_pfet_g5v0d10v5_spectre"
+"Voutv" ":1v"
+"V+v" ":2v"
+"V-v" ":3v"
+"Vinv" ":4v"

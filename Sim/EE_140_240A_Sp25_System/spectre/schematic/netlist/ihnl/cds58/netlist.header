@@ -1,0 +1,5 @@
+
+// Library name: swy
+// Cell name: AREG_mockup
+// View name: schematic
+subckt swy_AREG_mockup_schematic VBAT VDDA VREF VSS
