@@ -1,0 +1,6 @@
+
+// Library name: swy
+// Cell name: PGA_mockup
+// View name: schematic
+subckt swy_PGA_mockup_schematic CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN \
+        VOUT VSS

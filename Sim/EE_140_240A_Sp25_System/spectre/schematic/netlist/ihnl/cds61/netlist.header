@@ -1,0 +1,5 @@
+
+// Library name: swy
+// Cell name: opamp_mockup
+// View name: schematic
+subckt swy_opamp_mockup_schematic VDD VINN VINP VOUT VSS

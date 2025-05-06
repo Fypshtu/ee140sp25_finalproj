@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 01/17/2024 18:07 (csvcm36c-7) $
 \o Sub version:		sub-version  s353 
-\o Arguments:		-mpssession virtuoso3486240 -mpshost eda-1.EECS.Berkeley.EDU 
+\o Arguments:		-mpssession virtuoso3192 -mpshost eda-1.EECS.Berkeley.EDU 
 \o Working Directory:	eda-1.EECS.Berkeley.EDU:/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -32,10 +32,14 @@
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Skipping: './student_custom.lib'
 \o  
 \o Library Manager customization server connected.
-\a cdsLibManager->libListBox->value = "EE_140_240A_Final_Project"
-\a cdsLibManager->libLineEdit->value = "EE_140_240A_Final_Project"
+\a cdsLibManager->libListBox->value = "Test_EE_140_240A_Final_Project"
+\a cdsLibManager->libLineEdit->value = "Test_EE_140_240A_Final_Project"
 \a cdsLibManager->cellListBox->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->cellLineEdit->value = "EE_140_240A_Sp25_System"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
@@ -65,8 +69,8 @@
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Cannot find file './student_custom.lib'.
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Skipping: './student_custom.lib'
 \o  
-\a cdsLibManager->libListBox->value = "EE_140_240A_Final_Project"
-\a cdsLibManager->libLineEdit->value = "EE_140_240A_Final_Project"
+\a cdsLibManager->libListBox->value = "Test_EE_140_240A_Final_Project"
+\a cdsLibManager->libLineEdit->value = "Test_EE_140_240A_Final_Project"
 \a cdsLibManager->cellListBox->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->cellLineEdit->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->viewListBox->value = "schematic"
@@ -75,11 +79,6 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
-\a nrResizeWindow(cdsLibManager list(446 37 602 491))
-\a nrResizeWindow(cdsLibManager list(772 37 602 491))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -105,16 +104,16 @@
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Cannot find file './student_custom.lib'.
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Skipping: './student_custom.lib'
 \o  
-\a cdsLibManager->libListBox->value = "EE_140_240A_Final_Project"
-\a cdsLibManager->libLineEdit->value = "EE_140_240A_Final_Project"
+\a cdsLibManager->libListBox->value = "Test_EE_140_240A_Final_Project"
+\a cdsLibManager->libLineEdit->value = "Test_EE_140_240A_Final_Project"
 \a cdsLibManager->cellListBox->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->cellLineEdit->value = "EE_140_240A_Sp25_System"
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -140,16 +139,16 @@
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Cannot find file './student_custom.lib'.
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Skipping: './student_custom.lib'
 \o  
-\a cdsLibManager->libListBox->value = "EE_140_240A_Final_Project"
-\a cdsLibManager->libLineEdit->value = "EE_140_240A_Final_Project"
+\a cdsLibManager->libListBox->value = "Test_EE_140_240A_Final_Project"
+\a cdsLibManager->libLineEdit->value = "Test_EE_140_240A_Final_Project"
 \a cdsLibManager->cellListBox->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->cellLineEdit->value = "EE_140_240A_Sp25_System"
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
@@ -175,19 +174,16 @@
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Cannot find file './student_custom.lib'.
 \w Warning: '/home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/cds.lib', Line 32: Skipping: './student_custom.lib'
 \o  
-\a cdsLibManager->libListBox->value = "EE_140_240A_Final_Project"
-\a cdsLibManager->libLineEdit->value = "EE_140_240A_Final_Project"
+\a cdsLibManager->libListBox->value = "Test_EE_140_240A_Final_Project"
+\a cdsLibManager->libLineEdit->value = "Test_EE_140_240A_Final_Project"
 \a cdsLibManager->cellListBox->value = "EE_140_240A_Sp25_System"
 \a cdsLibManager->cellLineEdit->value = "EE_140_240A_Sp25_System"
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "EE140FinalProject_test_BGR_AREG"
-\a cdsLibManager->viewLineEdit->value = "EE140FinalProject_test_BGR_AREG"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS service: shutdown
 \o libManager is exiting.
 \a exit(0)

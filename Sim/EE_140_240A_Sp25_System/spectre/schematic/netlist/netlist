@@ -68,57 +68,124 @@ subckt OR2HDX0_dupe_schematic A B OUT VDD VSS
 ends OR2HDX0_dupe_schematic
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
-// Cell name: opamp_mockup
+// Library name: project
+// Cell name: opamp_pga
 // View name: schematic
-subckt opamp_mockup_schematic VDD VINN VINP VOUT VSS
-parameters Rout
-    E0 (net8 VSS VINP VINN) vcvs gain=1000 type=vcvs min=0 max=1.8
-    R0 (net8 VOUT) resistor r=Rout
-ends opamp_mockup_schematic
+subckt opamp_pga VDD VINN VINP VOUT VSS
+    NM18 (net139 VG3 net1 VSS) nfet_01v8 w=(3u) l=300n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM17 (VG5 VG3 net4 VSS) nfet_01v8 w=(3u) l=300n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM16 (net4 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM15 (net1 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM14 (VG6 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM13 (VG2 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM12 (VG3 VG3 VSS VSS) nfet_01v8 w=(1.2u) l=300n as=318f ad=318f \
+        ps=2.93u pd=2.93u m=(1)*(1)
+    NM11 (VOUT VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM18 (net2 VG5 VDD VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM17 (net6 VG5 VDD VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM16 (net5 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM15 (VG5 VG6 net6 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM14 (net139 VG6 net2 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM13 (VG6 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM12 (VG2 VG6 net3 VDD) pfet_01v8 w=(24u) l=300n as=6.36p ad=6.36p \
+        ps=48.53u pd=48.53u m=(1)*(1)
+    PM11 (VG3 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM10 (net1 VINN net5 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM9 (net4 VINP net5 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM8 (VOUT net139 VDD VDD) pfet_01v8 w=(30u) l=300n as=7.95p ad=7.95p \
+        ps=60.53u pd=60.53u m=(1)*(1)
+    R1 (VDD net3) resistor r=3.5K
+ends opamp_pga
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
+// Library name: swy
+// Cell name: opamp_mockup
+// View name: schematic
+subckt swy_opamp_mockup_schematic VDD VINN VINP VOUT VSS
+    I0 (VDD VINN VINP VOUT VSS) opamp_pga
+ends swy_opamp_mockup_schematic
+// End of subcircuit definition.
+
+// Library name: swy
 // Cell name: PGA_mockup
 // View name: schematic
-subckt PGA_mockup_schematic CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN VOUT \
-        VSS
-parameters C0
-    C4 (net2 net016) capacitor c=4*C0
-    C7 (net2 net1) capacitor c=C0
-    C6 (net2 net014) capacitor c=C0
-    C8 (VOUT net2) capacitor c=C0
-    C5 (net2 net015) capacitor c=2*C0
-    W9 (net016 VSS CLK2_GATE\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W8 (VIN net016 X\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W7 (VIN net015 X\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W6 (net015 VSS CLK2_GATE\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W5 (VIN net014 X\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W4 (net014 VSS CLK2_GATE\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
-        rclosed=1.0
-    W3 (VSS VOUT CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
-    W2 (VSS net2 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
-    W1 (VIN net1 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
-    W0 (net1 VSS CLK2 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
-    I5 (G\<2\> CLK1 X\<2\> VDD VSS) AND2HDX0_dupe_schematic
-    I4 (G\<1\> CLK1 X\<1\> VDD VSS) AND2HDX0_dupe_schematic
-    I3 (G\<0\> CLK1 X\<0\> VDD VSS) AND2HDX0_dupe_schematic
+subckt swy_PGA_mockup_schematic CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN \
+        VOUT VSS
+    C8 (VOUT net2) capacitor c=5p
+    C4 (net2 net5) capacitor c=20p
+    C6 (net2 net3) capacitor c=5p
+    C5 (net2 net4) capacitor c=10p
+    C7 (net2 net1) capacitor c=5p
+    I8 (G\<0\> CLK1 X\<0\> VDD VSS) AND2HDX0_dupe_schematic
+    I2 (G\<1\> CLK1 X\<1\> VDD VSS) AND2HDX0_dupe_schematic
+    I0 (G\<2\> CLK1 X\<2\> VDD VSS) AND2HDX0_dupe_schematic
     I12 (CLK2 GB\<2\> CLK2_GATE\<2\> VDD VSS) OR2HDX0_dupe_schematic
     I11 (CLK2 GB\<1\> CLK2_GATE\<1\> VDD VSS) OR2HDX0_dupe_schematic
     I6 (CLK2 GB\<0\> CLK2_GATE\<0\> VDD VSS) OR2HDX0_dupe_schematic
+    I15 (CLK1 CLK1B VDD VSS) invr_dupe_schematic GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I14 (X\<0\> XB\<0\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I7 (X\<1\> XB\<1\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I1 (X\<2\> XB\<2\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
     I13 (G\<2\> GB\<2\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
         GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
     I9 (G\<0\> GB\<0\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
         GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
     I10 (G\<1\> GB\<1\> VDD VSS) invr_dupe_schematic GT_PDW=420n \
         GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
-    X_AMP (VDD net2 VSS VOUT VSS) opamp_mockup_schematic Rout=0
-ends PGA_mockup_schematic
+    NM5 (VSS CLK2 net1 VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+    NM3 (net1 CLK1 VIN VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+    NM17 (VSS CLK1 VOUT VSS) nfet_01v8 w=(3u) l=150n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM8 (VSS CLK2_GATE\<2\> net5 VSS) nfet_01v8 w=(1u) l=150n as=265f \
+        ad=265f ps=2.53u pd=2.53u m=(1)*(1)
+    NM1 (net4 X\<1\> VIN VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+    NM2 (net3 X\<0\> VIN VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+    NM0 (net5 X\<2\> VIN VSS) nfet_01v8 w=(1u) l=150n as=265f ad=265f \
+        ps=2.53u pd=2.53u m=(1)*(1)
+    NM7 (VSS CLK2_GATE\<1\> net4 VSS) nfet_01v8 w=(1u) l=150n as=265f \
+        ad=265f ps=2.53u pd=2.53u m=(1)*(1)
+    NM18 (VSS CLK1 net2 VSS) nfet_01v8 w=(3u) l=150n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM6 (VSS CLK2_GATE\<0\> net3 VSS) nfet_01v8 w=(1u) l=150n as=265f \
+        ad=265f ps=2.53u pd=2.53u m=(1)*(1)
+    I17 (VDD VSS net2 VOUT VSS) swy_opamp_mockup_schematic
+    PM11 (VSS CLK1B VOUT VDD) pfet_01v8 w=(6u) l=150n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM0 (net5 XB\<2\> VIN VDD) pfet_01v8 w=(2u) l=150n as=530f ad=530f \
+        ps=4.53u pd=4.53u m=(1)*(1)
+    PM1 (net4 XB\<1\> VIN VDD) pfet_01v8 w=(2u) l=150n as=530f ad=530f \
+        ps=4.53u pd=4.53u m=(1)*(1)
+    PM2 (net3 XB\<0\> VIN VDD) pfet_01v8 w=(2u) l=150n as=530f ad=530f \
+        ps=4.53u pd=4.53u m=(1)*(1)
+    PM12 (VSS CLK1B net2 VDD) pfet_01v8 w=(6u) l=150n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM3 (net1 CLK1B VIN VDD) pfet_01v8 w=(2u) l=150n as=530f ad=530f \
+        ps=4.53u pd=4.53u m=(1)*(1)
+ends swy_PGA_mockup_schematic
 // End of subcircuit definition.
 
 // Library name: proj
@@ -429,8 +496,8 @@ subckt EE_140_240A_Sp25_Student_Submission_schematic CLK_ADC CLK_PGA1 \
         CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
         D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> G\<0\> S\<1\> S\<0\> \
         VBAT VBATDIV4 VDAC VDDA VDDD VPTAT VSS
-    X_PGA (CLK_PGA1 CLK_PGA2 G\<2\> G\<1\> G\<0\> VDDA MUX_OUT PGA_OUT \
-        VSS) PGA_mockup_schematic C0=1f
+    I13 (CLK_PGA1 CLK_PGA2 G\<2\> G\<1\> G\<0\> VDDA MUX_OUT PGA_OUT VSS) \
+        swy_PGA_mockup_schematic
     X_MUX (VPTAT VBATDIV4 EXT_IN\<1\> EXT_IN\<0\> MUX_OUT S\<1\> S\<0\> \
         VDDA VSS) mux_mockup_schematic
     I8 (VBAT VREF_REG VPTAT VREF_ADC VSS) swy_BGR_mockup_schematic
@@ -720,7 +787,7 @@ subckt EE_140_240A_Sp25_DigitalTop_schematic CLK CLK_ADC CLK_PGA1 CLK_PGA2 \
 ends EE_140_240A_Sp25_DigitalTop_schematic
 // End of subcircuit definition.
 
-// Library name: EE_140_240A_Final_Project
+// Library name: Test_EE_140_240A_Final_Project
 // Cell name: EE_140_240A_Sp25_System
 // View name: schematic
 X_STUDENT (CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \

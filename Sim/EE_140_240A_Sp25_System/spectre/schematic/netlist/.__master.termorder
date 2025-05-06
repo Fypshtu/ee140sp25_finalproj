@@ -35,9 +35,11 @@
 "EE_140_240A_Final_Project.AND2HDX0_dupe.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
 "EE_140_240A_Final_Project.SAR_FSM_HW.schematic.termorder" (("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion") ("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion"))
 "EE_140_240A_Final_Project.EE_140_240A_Sp25_Student_Submission.schematic.termorder" nil
+"project.opamp_pga.schematic.termorder" (("VDD" "VINN" "VINP" "VOUT" "VSS") ("VDD" "VINN" "VINP" "VOUT" "VSS"))
 "EE_140_240A_Final_Project.DFRRSHDX0_dupe.schematic.termorder" nil
 "EE_140_240A_Final_Project.capdac_mockup.schematic.termorder" (("D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDAC" "VDD" "VIN" "VREF" "VSS" "COMPARE") ("COMPARE" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDAC" "VDD" "VIN" "VREF" "VSS"))
 "ee140_gsi.AND2HDX0_dupe.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
+"swy.PGA_mockup.schematic.termorder" nil
 "proj.switch_TG.schematic.termorder" (("Vout" "GND" "VDD" "sel" "Vin") ("GND" "VDD" "Vin" "Vout" "sel"))
 "EE_140_240A_Final_Project.DREG_mockup.schematic.termorder" nil
 "EE_140_240A_Final_Project.AREG_mockup.schematic.termorder" (("VBAT" "VDDA" "VREF" "VSS") ("VBAT" "VDDA" "VREF" "VSS"))
@@ -56,3 +58,4 @@
 "lab6.5T.schematic.termorder" (("Vout" "V+" "V-" "Vin") ("V+" "V-" "Vin" "Vout"))
 "EE_140_240A_Final_Project.clk_nonoverlapping.schematic.termorder" nil
 "EE_140_240A_Final_Project.nor2_dupe.schematic.termorder" (("a" "b" "out" "VDD" "VSS") ("VDD" "VSS" "a" "b" "out"))
+"swy.opamp_mockup.schematic.termorder" (("VDD" "VINN" "VINP" "VOUT" "VSS") ("VDD" "VINN" "VINP" "VOUT" "VSS"))

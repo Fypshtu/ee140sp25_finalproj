@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "opamp_pga"
+"VDDv" ":1v"
+"VINNv" ":2v"
+"VINPv" ":3v"
+"VOUTv" ":4v"
+"VSSv" ":5v"

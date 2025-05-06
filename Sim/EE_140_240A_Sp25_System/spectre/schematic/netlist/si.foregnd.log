@@ -510,7 +510,7 @@ hnlPrintTopCellHeader hnlPrintTopCellFooter hnlPrintPorts hnlPrintDeviceHeader
 hnlPrintDeviceFooter hnlPrintInst) .
 Loading the file
 '/share/instsww/cadence/IC.06.18.350/tools.lnx86/dfII/etc/skill/hnl/spectre.ile'.Loading the file
-'/share/instsww/cadence/IC.06.18.350/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting May  6 10:09:44 2025
+'/share/instsww/cadence/IC.06.18.350/tools.lnx86/dfII/etc/skill/hnl/driver.ile'.Begin Incremental Netlisting May  6 11:21:59 2025
 WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
 has been modified since the last
 extraction of its parent cellview
@@ -550,8 +550,8 @@ simSymbolModifiedAction controls the severity of this message,
 which can be
 'ignore', 'warning', or 'error'.
 
-End netlisting May  6 10:09:45 2025
-Begin Incremental Netlisting May  6 10:13:41 2025
+End netlisting May  6 11:21:59 2025
+Begin Incremental Netlisting May  6 11:23:34 2025
 WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
 has been modified since the last
 extraction of its parent cellview
@@ -591,8 +591,8 @@ simSymbolModifiedAction controls the severity of this message,
 which can be
 'ignore', 'warning', or 'error'.
 
-End netlisting May  6 10:13:42 2025
-Begin Incremental Netlisting May  6 10:21:38 2025
+End netlisting May  6 11:23:34 2025
+Begin Incremental Netlisting May  6 11:24:41 2025
 WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
 has been modified since the last
 extraction of its parent cellview
@@ -632,8 +632,8 @@ simSymbolModifiedAction controls the severity of this message,
 which can be
 'ignore', 'warning', or 'error'.
 
-End netlisting May  6 10:21:38 2025
-Begin Incremental Netlisting May  6 10:23:11 2025
+End netlisting May  6 11:24:41 2025
+Begin Incremental Netlisting May  6 11:26:06 2025
 WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
 has been modified since the last
 extraction of its parent cellview
@@ -673,4 +673,86 @@ simSymbolModifiedAction controls the severity of this message,
 which can be
 'ignore', 'warning', or 'error'.
 
-End netlisting May  6 10:23:12 2025
+End netlisting May  6 11:26:06 2025
+Begin Incremental Netlisting May  6 11:27:28 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  6 11:27:28 2025
+Begin Incremental Netlisting May  6 11:29:11 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  6 11:29:12 2025

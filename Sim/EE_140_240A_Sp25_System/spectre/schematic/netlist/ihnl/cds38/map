@@ -1,6 +1,6 @@
 ( ( model
 ( "BGR_mockup" "swy_BGR_mockup_schematic" )
-( "PGA_mockup" "PGA_mockup_schematic" )
+( "PGA_mockup" "swy_PGA_mockup_schematic" )
 ( "EE_140_240A_Sp25_Student_Submission" "EE_140_240A_Sp25_Student_Submission_schematic" )
 ( "ADC_mockup" "ADC_mockup_schematic" )
 ( "AREG_mockup" "swy_AREG_mockup_schematic" )

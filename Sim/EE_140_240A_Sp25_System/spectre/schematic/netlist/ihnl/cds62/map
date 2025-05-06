@@ -1,0 +1,8 @@
+( ( model
+( "PGA_mockup" "swy_PGA_mockup_schematic" )
+( "invr_dupe" "invr_dupe_schematic" )
+( "OR2HDX0_dupe" "OR2HDX0_dupe_schematic" )
+( "opamp_mockup" "swy_opamp_mockup_schematic" )
+( "AND2HDX0_dupe" "AND2HDX0_dupe_schematic" )
+ )
+ )

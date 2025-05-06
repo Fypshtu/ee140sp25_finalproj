@@ -1,0 +1,5 @@
+
+// Library name: project
+// Cell name: opamp_pga
+// View name: schematic
+subckt opamp_pga VDD VINN VINP VOUT VSS

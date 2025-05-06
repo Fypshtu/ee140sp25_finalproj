@@ -1,0 +1,41 @@
+    NM18 (net139 VG3 net1 VSS) nfet_01v8 w=(3u) l=300n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM17 (VG5 VG3 net4 VSS) nfet_01v8 w=(3u) l=300n as=795f ad=795f \
+        ps=6.53u pd=6.53u m=(1)*(1)
+    NM16 (net4 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM15 (net1 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM14 (VG6 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM13 (VG2 VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    NM12 (VG3 VG3 VSS VSS) nfet_01v8 w=(1.2u) l=300n as=318f ad=318f \
+        ps=2.93u pd=2.93u m=(1)*(1)
+    NM11 (VOUT VG2 VSS VSS) nfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM18 (net2 VG5 VDD VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM17 (net6 VG5 VDD VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM16 (net5 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM15 (VG5 VG6 net6 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM14 (net139 VG6 net2 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM13 (VG6 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM12 (VG2 VG6 net3 VDD) pfet_01v8 w=(24u) l=300n as=6.36p ad=6.36p \
+        ps=48.53u pd=48.53u m=(1)*(1)
+    PM11 (VG3 VG6 VDD VDD) pfet_01v8 w=(6u) l=300n as=1.59p ad=1.59p \
+        ps=12.53u pd=12.53u m=(1)*(1)
+    PM10 (net1 VINN net5 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM9 (net4 VINP net5 VDD) pfet_01v8 w=(12u) l=300n as=3.18p ad=3.18p \
+        ps=24.53u pd=24.53u m=(1)*(1)
+    PM8 (VOUT net139 VDD VDD) pfet_01v8 w=(30u) l=300n as=7.95p ad=7.95p \
+        ps=60.53u pd=60.53u m=(1)*(1)
+    R1 (VDD net3) resistor r=3.5K
+ends opamp_pga
+// End of subcircuit definition.
