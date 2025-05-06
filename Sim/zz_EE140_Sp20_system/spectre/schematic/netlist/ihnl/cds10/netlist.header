@@ -1,0 +1,6 @@
+
+// Library name: ee140_gsi
+// Cell name: BGR_mockup
+// View name: schematic
+subckt BGR_mockup VBAT VBG VPTAT VREF_ADC VSS
+parameters TSTART_A TR_A

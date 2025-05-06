@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: mux2_mockup
+// View name: schematic
+subckt mux2_mockup IN\<1\> IN\<0\> S VDD VOUT VSS

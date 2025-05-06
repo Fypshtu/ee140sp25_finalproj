@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: switch_TG
+// View name: schematic
+subckt switch_TG Vout GND VDD sel Vin

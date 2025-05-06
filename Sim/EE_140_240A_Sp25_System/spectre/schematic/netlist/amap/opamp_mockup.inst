@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"E0n" "analogLib_vcvs_spectre"
+"R0n" "analogLib_res_spectre"
+"VDDv" ":1v"
+"VINNv" ":2v"
+"VINPv" ":3v"
+"VOUTv" ":4v"
+"VSSv" ":5v"

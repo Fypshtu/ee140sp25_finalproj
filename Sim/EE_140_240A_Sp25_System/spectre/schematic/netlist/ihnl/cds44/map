@@ -1,0 +1,7 @@
+( ( model
+( "OR2HDX0_dupe" "OR2HDX0_dupe_schematic" )
+( "invr_dupe" "invr_dupe_schematic" )
+( "XNOR_gate" "XNOR_gate_schematic" )
+( "AND2HDX0_dupe" "AND2HDX0_dupe_schematic" )
+ )
+ )

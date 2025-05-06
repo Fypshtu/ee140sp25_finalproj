@@ -1,0 +1,11 @@
+    PM2 (a0 sel out VDDA) pfet_01v8 w=(550n) l=150n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM0 (a1 sel_n out VDDA) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    NM2 (a0 sel_n out GND) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM0 (a1 sel out GND) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    I0 (sel_n GND VDDA sel) inverter_adc
+ends MUX21
+// End of subcircuit definition.

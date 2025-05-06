@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: clk_nonoverlapping
+// View name: schematic
+subckt clk_nonoverlapping CLK_IN PHI1 PHI2 VDD VSS

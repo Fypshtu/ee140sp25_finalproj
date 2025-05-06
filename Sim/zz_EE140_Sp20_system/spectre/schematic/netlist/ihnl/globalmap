@@ -1,0 +1,47 @@
+CADENCE IHNL11140
+$model
+ee140_gsi/XNOR_gate/schematic XNOR_gate
+ee140_gsi/SAR_FSM_HW/schematic SAR_FSM_HW
+ee140_gsi/DFRRSHDX0_dupe/schematic DFRRSHDX0_dupe
+ee140_gsi/zz_EE140_Sp20_system/schematic zz_EE140_Sp20_system
+ee140_gsi/AND2HDX0_dupe/schematic AND2HDX0_dupe
+ee140_gsi/invr_dupe/schematic invr_dupe
+ee140_gsi/nor2_dupe/schematic nor2_dupe
+ee140_gsi/mux2_mockup/schematic mux2_mockup
+ee140_gsi/capdac_mockup/schematic capdac_mockup
+ee140_gsi/VBATDIV4_mockup/schematic VBATDIV4_mockup
+ee140_gsi/opamp_mockup/schematic opamp_mockup
+ee140_gsi/ADC_mockup/schematic ADC_mockup
+ee140_gsi/EE140_Sp20_studentMockup/schematic EE140_Sp20_studentMockup
+ee140_gsi/OR2HDX0_dupe/schematic OR2HDX0_dupe
+ee140_gsi/mux_mockup/schematic mux_mockup
+ee140_gsi/BGR_mockup/schematic BGR_mockup
+ee140_gsi/clk_nonoverlapping/schematic clk_nonoverlapping
+ee140_gsi/switch2_mockup/schematic switch2_mockup
+ee140_gsi/AREG_mockup/schematic AREG_mockup
+ee140_gsi/DREG_mockup/schematic DREG_mockup
+ee140_gsi/NA2HDX0_dupe/schematic NA2HDX0_dupe
+ee140_gsi/PGA_mockup/schematic PGA_mockup
+ee140_gsi/SAR_DFF/schematic SAR_DFF
+ee140_gsi/EE140_Sp20_digital/schematic EE140_Sp20_digital
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+G_1 G_1
+VDDD_IDEAL VDDD_IDEAL
+G_2 G_2
+VIN_1 VIN_1
+VDDA_IDEAL VDDA_IDEAL
+G_0 G_0
+VBAT VBAT
+S_1 S_1
+S_0 S_0
+TR_D TR_D
+_EXPR_7 _EXPR_7
+VIN_0 VIN_0
+NBAT NBAT
+FCLK FCLK
+TRISE_BAT TRISE_BAT
+$endparam

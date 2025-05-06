@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"PM2n PM0n" "sky130_fd_pr_main_pfet_01v8_spectre"
+"NM2n NM0n" "sky130_fd_pr_main_nfet_01v8_spectre"
+"I0n" "inverter_adc"
+"outv" ":1v"
+"GNDv" ":2v"
+"VDDAv" ":3v"
+"a0v" ":4v"
+"a1v" ":5v"
+"selv" ":6v"

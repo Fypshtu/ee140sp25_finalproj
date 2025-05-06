@@ -1,0 +1,62 @@
+    C8 (VDAC BOT\<7\>) capacitor c=C0 m=128
+    C7 (VDAC BOT\<6\>) capacitor c=C0 m=64
+    C6 (VDAC BOT\<5\>) capacitor c=C0 m=32
+    C5 (VDAC BOT\<4\>) capacitor c=C0 m=16
+    C4 (VDAC BOT\<3\>) capacitor c=C0 m=8
+    C3 (VDAC BOT\<2\>) capacitor c=C0 m=4
+    C2 (VDAC BOT\<1\>) capacitor c=C0 m=2
+    C1 (VDAC BOT\<0\>) capacitor c=C0 m=1
+    C0 (VDAC BOTX) capacitor c=C0 m=1
+    W0 (VREF VDAC LOAD VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    I17 (net031 D_SHIFT\<7\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I16 (net032 D_SHIFT\<6\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I15 (D\<7\> net031 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I14 (D\<6\> net032 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I13 (net033 D_SHIFT\<5\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I12 (net034 D_SHIFT\<4\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I11 (D\<5\> net033 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I10 (D\<4\> net034 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I9 (net035 D_SHIFT\<3\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I8 (net036 D_SHIFT\<2\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I7 (D\<3\> net035 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I6 (D\<2\> net036 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I5 (net07 D_SHIFT\<1\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I4 (net08 D_SHIFT\<0\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (D\<1\> net07 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I2 (D\<0\> net08 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    E8 (D_BUF\<7\> VSS D_SHIFT\<7\> VSS) vcvs gain=1.0
+    E7 (D_BUF\<6\> VSS D_SHIFT\<6\> VSS) vcvs gain=1.0
+    E6 (D_BUF\<5\> VSS D_SHIFT\<5\> VSS) vcvs gain=1.0
+    E5 (D_BUF\<4\> VSS D_SHIFT\<4\> VSS) vcvs gain=1.0
+    E4 (D_BUF\<3\> VSS D_SHIFT\<3\> VSS) vcvs gain=1.0
+    E3 (D_BUF\<2\> VSS D_SHIFT\<2\> VSS) vcvs gain=1.0
+    E2 (D_BUF\<1\> VSS D_SHIFT\<1\> VSS) vcvs gain=1.0
+    E1 (D_BUF\<0\> VSS D_SHIFT\<0\> VSS) vcvs gain=1.0
+    E0 (VREF_SHIFT VSS VREF VSS) vcvs gain=1.0 type=vcvs
+    I26 (VIN D_BUF\<7\> BOT\<7\> LOAD COMPARE VSS) switch2_mockup
+    I33 (VIN D_BUF\<0\> BOT\<0\> LOAD COMPARE VSS) switch2_mockup
+    I32 (VIN D_BUF\<1\> BOT\<1\> LOAD COMPARE VSS) switch2_mockup
+    I31 (VIN D_BUF\<2\> BOT\<2\> LOAD COMPARE VSS) switch2_mockup
+    I30 (VIN D_BUF\<3\> BOT\<3\> LOAD COMPARE VSS) switch2_mockup
+    I29 (VIN D_BUF\<4\> BOT\<4\> LOAD COMPARE VSS) switch2_mockup
+    I28 (VIN D_BUF\<5\> BOT\<5\> LOAD COMPARE VSS) switch2_mockup
+    I27 (VIN D_BUF\<6\> BOT\<6\> LOAD COMPARE VSS) switch2_mockup
+    I34 (VIN VSS BOTX LOAD COMPARE VSS) switch2_mockup
+ends capdac_mockup
+// End of subcircuit definition.

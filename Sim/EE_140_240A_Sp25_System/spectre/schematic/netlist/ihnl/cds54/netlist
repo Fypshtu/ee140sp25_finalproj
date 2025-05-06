@@ -1,0 +1,5 @@
+    I2 (OUT GND VDDA net2 net3 s1) MUX21
+    I1 (net2 GND VDDA a0 a1 s0) MUX21
+    I0 (net3 GND VDDA VBATdiv4 VPTAT s0) MUX21
+ends MUX41
+// End of subcircuit definition.

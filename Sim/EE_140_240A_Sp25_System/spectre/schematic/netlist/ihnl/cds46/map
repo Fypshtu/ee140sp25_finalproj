@@ -1,0 +1,8 @@
+( ( model
+( "SAR_FSM_HW" "SAR_FSM_HW_schematic" )
+( "EE_140_240A_Sp25_DigitalTop" "EE_140_240A_Sp25_DigitalTop_schematic" )
+( "clk_nonoverlapping" "clk_nonoverlapping_schematic" )
+( "invr_dupe" "invr_dupe_schematic" )
+( "SAR_DFF" "SAR_DFF_schematic" )
+ )
+ )

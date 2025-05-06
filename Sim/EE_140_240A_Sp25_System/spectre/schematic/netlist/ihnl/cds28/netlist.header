@@ -1,0 +1,6 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: opamp_mockup
+// View name: schematic
+subckt opamp_mockup_schematic VDD VINN VINP VOUT VSS
+parameters Rout

@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: MUX21
+// View name: schematic
+subckt MUX21 out GND VDDA a0 a1 sel

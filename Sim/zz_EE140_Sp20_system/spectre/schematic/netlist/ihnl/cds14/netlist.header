@@ -1,0 +1,8 @@
+
+// Library name: ee140_gsi
+// Cell name: EE140_Sp20_studentMockup
+// View name: schematic
+subckt EE140_Sp20_studentMockup CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> \
+        D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> \
+        EXT_IN\<1\> G\<2\> G\<1\> G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA \
+        VDDD VPTAT VSS

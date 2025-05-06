@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: XNOR_gate
+// View name: schematic
+subckt XNOR_gate A B OUT VDD VSS

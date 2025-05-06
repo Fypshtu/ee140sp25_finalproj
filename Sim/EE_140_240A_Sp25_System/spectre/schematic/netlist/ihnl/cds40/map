@@ -1,0 +1,6 @@
+( ( model
+( "NA2HDX0_dupe" "NA2HDX0_dupe_schematic" )
+( "clk_nonoverlapping" "clk_nonoverlapping_schematic" )
+( "invr_dupe" "invr_dupe_schematic" )
+ )
+ )

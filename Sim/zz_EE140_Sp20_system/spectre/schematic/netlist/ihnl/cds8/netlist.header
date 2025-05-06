@@ -1,0 +1,6 @@
+
+// Library name: ee140_gsi
+// Cell name: PGA_mockup
+// View name: schematic
+subckt PGA_mockup CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN VOUT VSS
+parameters C0

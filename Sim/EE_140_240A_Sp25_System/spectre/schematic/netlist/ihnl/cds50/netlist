@@ -1,0 +1,4 @@
+    I0 (GND sel s_bar VDD Vin Vout) TG
+    I1 (s_bar GND VDD sel) inverter_adc
+ends switch_TG
+// End of subcircuit definition.

@@ -1,0 +1,8 @@
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/config.scs" section=default
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/param.scs" section=3s
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/bip.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/cap.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/dio.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/mos.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/res.scs" section=tm
+include "/home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sky130.lib.spice" section=tt

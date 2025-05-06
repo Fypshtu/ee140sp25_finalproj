@@ -1,0 +1,492 @@
+Begin Incremental Netlisting May  5 18:35:08 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:35:09 2025
+Begin Incremental Netlisting May  5 18:37:24 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:37:24 2025
+Begin Incremental Netlisting May  5 18:44:33 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:44:33 2025
+Begin Incremental Netlisting May  5 18:46:00 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:46:00 2025
+Begin Incremental Netlisting May  5 18:47:10 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:47:11 2025
+Begin Incremental Netlisting May  5 18:50:00 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:50:01 2025
+Begin Incremental Netlisting May  5 18:54:54 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:54:54 2025
+Begin Incremental Netlisting May  5 18:58:03 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:58:04 2025
+Begin Incremental Netlisting May  5 18:59:47 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 18:59:47 2025
+Begin Incremental Netlisting May  5 19:00:57 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 19:00:57 2025
+Begin Incremental Netlisting May  5 19:01:37 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 19:01:37 2025
+Begin Incremental Netlisting May  5 19:15:37 2025
+WARNING (OSSHNL-325): Place master 'proj/inverter_adc/symbol' for instance 'I0'
+has been modified since the last
+extraction of its parent cellview
+'proj/MUX21/schematic'.
+Connectivity changes in the place master can cause
+issues in the generated
+netlist. To resolve such issues:
+-Reextract the parent
+cellview 'proj/MUX21/schematic' and regenerate the netlist. To avoid
+multiple
+Check and Save operations, use the Check Hierarchy form or the
+schHiCheckHier
+SKILL function to do a hierarchical check and save on the top
+cell and then
+generate the netlist.
+-Ignore all connectivity checks for this place master by
+specifying it to the
+list of cellviews to be ignored using the
+hnlUserIgnoreCVModifyList variable.
+-Change the severity of modification errors
+by setting the environment variable
+simSymbolModifiedAction to 'ignore'.
+However, this may ignore both connectivity
+and non-connectivity changes, thereby
+generating an incorrect netlist.
+To avoid reporting of non-connectivity changes
+after performing a hierarchical
+check and save operation, set 'schematic'
+'autoEquivalentConnectivityTime' to
+'t' in the .cdsenv file. After setting the
+autoEquivalentConnectivityTime
+variable, set simSymbolModifiedAction to 'error'
+to receive reports of only
+connectivity issues during netlisting.
+The variable
+simSymbolModifiedAction controls the severity of this message,
+which can be
+'ignore', 'warning', or 'error'.
+
+End netlisting May  5 19:15:37 2025

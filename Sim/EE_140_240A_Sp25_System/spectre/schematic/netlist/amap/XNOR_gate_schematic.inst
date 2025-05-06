@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"I2n I1n" "AND2HDX0_dupe_schematic"
+"I4n I3n" "invr_dupe_schematic"
+"I0n" "OR2HDX0_dupe_schematic"
+"Av" ":1v"
+"Bv" ":2v"
+"OUTv" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"

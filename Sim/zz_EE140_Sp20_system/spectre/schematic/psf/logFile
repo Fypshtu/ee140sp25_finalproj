@@ -1,0 +1,80 @@
+HEADER
+"PSFversion" "1.00"
+"Log Generator" "drlLog rev. 1.0"
+"Log Time Stamp" "Sun Apr 20 16:04:16 2025"
+"psfversion" "1.4.0"
+"simulator" "spectre"
+"version" "21.1.0.751.isr19"
+"date" "4:04:16 PM, Sun Apr 20, 2025"
+"design" "// Generated for: spectre"
+"signalNameType" "spectre"
+"simMode" "APS"
+"measdgt" 0
+"ingold" 2
+"sst2usecolon" 0
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING *
+)
+VALUE
+"tran-tran" "analysisInst" (
+"tran"
+"tran.tran.trn"
+"SST2"
+""
+("time")
+"Transient Analysis `tran': time = (0 s -> 20 us)"
+) PROP(
+"data_type" "swept_scalar"
+)
+
+"finalTimeOP-info" "analysisInst" (
+"info"
+"finalTimeOP.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"modelParameter-info" "analysisInst" (
+"info"
+"modelParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"element-info" "analysisInst" (
+"info"
+"element.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+"outputParameter-info" "analysisInst" (
+"info"
+"outputParameter.info"
+"PSF"
+""
+()
+"Circuit Information"
+) PROP(
+"data_type" "struct"
+)
+
+END

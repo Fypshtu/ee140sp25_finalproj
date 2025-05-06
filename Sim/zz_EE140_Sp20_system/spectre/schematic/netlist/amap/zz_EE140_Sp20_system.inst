@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"NM0n" "sky130_fd_pr_main_nfet_01v8_spectre"
+"X_STUDENTn" "EE140_Sp20_studentMockup"
+"V4n V1n V3n" "analogLib_vpulse_spectre"
+"I22n" "analogLib_ipulse_spectre"
+"E12n E11n E10n E9n E8n E7n E6n E5n E4n E2n E3n E0n E1n" "analogLib_vcvs_spectre"
+"R0n" "analogLib_res_spectre"
+"C0n" "analogLib_cap_spectre"
+"V0n V2n" "analogLib_vsource_spectre"
+"V5n" "analogLib_vdc_spectre"
+"X_GSIn" "EE140_Sp20_digital"

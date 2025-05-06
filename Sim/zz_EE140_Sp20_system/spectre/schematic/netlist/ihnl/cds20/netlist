@@ -1,0 +1,9 @@
+    I0 (net4 net5 OUT VDD VSS) OR2HDX0_dupe
+    I2 (A B net5 VDD VSS) AND2HDX0_dupe
+    I1 (net3 net2 net4 VDD VSS) AND2HDX0_dupe
+    I4 (B net2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (A net3 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends XNOR_gate
+// End of subcircuit definition.

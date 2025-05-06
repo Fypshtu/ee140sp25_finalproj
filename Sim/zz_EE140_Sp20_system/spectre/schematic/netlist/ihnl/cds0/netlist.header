@@ -1,0 +1,6 @@
+
+// Library name: ee140_gsi
+// Cell name: opamp_mockup
+// View name: schematic
+subckt opamp_mockup VDD VINN VINP VOUT VSS
+parameters Rout

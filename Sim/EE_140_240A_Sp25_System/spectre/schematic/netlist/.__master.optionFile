@@ -1,0 +1,15 @@
+"issueInfoMsgOnCellRename" nil
+"dspfBindingToCell" "bindToAll"
+"_dspfFullDesignInfo" nil
+"hnlProcessDifferentPmAndInstTerminalRepresentation" nil
+"printComments" (nil nil)
+"termMismatch" "default"
+"dspfBindingSummary" nil
+"supportDspfMasterOption" nil
+"preserveSubcktTermNamesByOrder" nil
+"setTopLevelAsSubckt" nil
+"dutlcv" "slotUnbound/slotUnbound/slotUnbound"
+"_dspfFileToEnvOptionsMapInfo" nil
+"srcFileMappingInfo" nil
+"changedSubcktNames" (("invr_dupe_schematic" ("EE_140_240A_Final_Project" "invr_dupe" "schematic")) ("OR2HDX0_dupe_schematic" ("EE_140_240A_Final_Project" "OR2HDX0_dupe" "schematic")) ("clk_nonoverlapping_schematic" ("EE_140_240A_Final_Project" "clk_nonoverlapping" "schematic")) ("AREG_mockup_schematic" ("EE_140_240A_Final_Project" "AREG_mockup" "schematic")) ("DFRRSHDX0_dupe_schematic" ("EE_140_240A_Final_Project" "DFRRSHDX0_dupe" "schematic")) ("nor2_dupe_schematic" ("EE_140_240A_Final_Project" "nor2_dupe" "schematic")) ("VBATDIV4_mockup_schematic" ("EE_140_240A_Final_Project" "VBATDIV4_mockup" "schematic")) ("ADC_mockup_schematic" ("EE_140_240A_Final_Project" "ADC_mockup" "schematic")) ("EE_140_240A_Sp25_DigitalTop_schematic" ("EE_140_240A_Final_Project" "EE_140_240A_Sp25_DigitalTop" "schematic")) ("capdac_mockup_schematic" ("EE_140_240A_Final_Project" "capdac_mockup" "schematic")) ("XNOR_gate_schematic" ("EE_140_240A_Final_Project" "XNOR_gate" "schematic")) ("AND2HDX0_dupe_schematic" ("EE_140_240A_Final_Project" "AND2HDX0_dupe" "schematic")) ("BGR_mockup_schematic" ("EE_140_240A_Final_Project" "BGR_mockup" "schematic")) ("SAR_FSM_HW_schematic" ("EE_140_240A_Final_Project" "SAR_FSM_HW" "schematic")) ("mux_mockup_schematic" ("EE_140_240A_Final_Project" "mux_mockup" "schematic")) ("DREG_mockup_schematic" ("EE_140_240A_Final_Project" "DREG_mockup" "schematic")) ("SAR_DFF_schematic" ("EE_140_240A_Final_Project" "SAR_DFF" "schematic")) ("mux2_mockup_schematic" ("EE_140_240A_Final_Project" "mux2_mockup" "schematic")) ("opamp_mockup_schematic" ("EE_140_240A_Final_Project" "opamp_mockup" "schematic")) ("PGA_mockup_schematic" ("EE_140_240A_Final_Project" "PGA_mockup" "schematic")) ("EE_140_240A_Sp25_Student_Submission_schematic" ("EE_140_240A_Final_Project" "EE_140_240A_Sp25_Student_Submission" "schematic")) ("NA2HDX0_dupe_schematic" ("EE_140_240A_Final_Project" "NA2HDX0_dupe" "schematic")) ("EE_140_240A_Sp25_System_schematic" ("EE_140_240A_Final_Project" "EE_140_240A_Sp25_System" "schematic")))
+"termDirectionMismatch" "default"

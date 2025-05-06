@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: May  5 19:00:57 2025
+// Design library name: EE_140_240A_Final_Project
+// Design cell name: EE_140_240A_Sp25_System
+// Design view name: schematic
+simulator lang=spectre
+global 0

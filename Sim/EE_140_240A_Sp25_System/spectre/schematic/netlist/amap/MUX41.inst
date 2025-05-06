@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"I2n I1n I0n" "MUX21"
+"OUTv" ":1v"
+"GNDv" ":2v"
+"VDDAv" ":3v"
+"VPTATv" ":4v"
+"VBATdiv4v" ":5v"
+"a0v" ":6v"
+"a1v" ":7v"
+"s0v" ":8v"
+"s1v" ":9v"

@@ -1,0 +1,7 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: PGA_mockup
+// View name: schematic
+subckt PGA_mockup_schematic CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN VOUT \
+        VSS
+parameters C0

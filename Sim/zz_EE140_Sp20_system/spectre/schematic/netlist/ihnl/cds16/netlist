@@ -1,0 +1,24 @@
+    I9 (net08 PHI2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I8 (net09 PHI1 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I6 (CLK_IN net5 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I5 (net3 net09 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I4 (net2 net08 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (net1 net2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I2 (net4 net3 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I7 (net09 net5 net1 VDD VSS) NA2HDX0_dupe
+    I0 (CLK_IN net08 net4 VDD VSS) NA2HDX0_dupe
+    C5 (net08 VSS) capacitor c=100f
+    C4 (net09 VSS) capacitor c=100f
+    C3 (net3 VSS) capacitor c=100f
+    C2 (net4 VSS) capacitor c=100f
+    C1 (net2 VSS) capacitor c=100f
+    C0 (net1 VSS) capacitor c=100f
+ends clk_nonoverlapping
+// End of subcircuit definition.

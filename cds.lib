@@ -1,0 +1,37 @@
+# cds.lib for EE140/240A Final Project 
+# Rahul Kartikeya Lall (EE140/240A GSI)
+# Set up for both XFAB XT018 (test harness) and SKY130 (student implementation) PDK's
+# ------------------------------------------------------------------------------
+# XKIT library definition files
+#   xt018.lib:
+#     - contains X-FAB XT018 Cadence library definitions 
+# 	 and must not be changed, exept with tkit -m|--modules
+#     - tkit -m|--modules overwrites this file, any changes will be lost.
+#   cds.lib:
+#     - includes xt018.lib
+#     - can contain customer specific library definitions
+#     xkit -m|--modules does NOT change an existing cds.lib.
+# ------------------------------------------------------------------------------
+
+
+# ------------------------------------------------------------------------------
+# XT018 Cadence library definitions
+
+# X-FAB library definitions
+INCLUDE ./xt018.lib
+
+# Library Manager Combine/Display Definitions
+INCLUDE ./xt018_combine.lib
+
+# Include SKY130 PDK
+INCLUDE ./sky130_release_0.0.4/cds.lib
+
+# ------------------------------------------------------------------------------
+# Add user specific libraries below this line 
+
+INCLUDE ./student_custom.lib
+DEFINE EE_140_240A_Final_Project /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/EE_140_240A_Final_Project
+DEFINE proj /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/proj
+DEFINE lab2 /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/lab2
+DEFINE lab4 /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/lab4
+DEFINE swy /home/cc/ee140/sp25/class/ee140-aam/cadence_finalproj/swy

@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"V0n" "analogLib_vpulse_spectre"
+"V1n" "analogLib_vdc_spectre"
+"VBATv" ":1v"
+"VBGv" ":2v"
+"VPTATv" ":3v"
+"VREF_ADCv" ":4v"
+"VSSv" ":5v"

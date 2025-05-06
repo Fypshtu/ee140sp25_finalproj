@@ -1,0 +1,23 @@
+"ee140_gsi.switch2_mockup.schematic.termorder" (("A" "B" "OUT" "PHIA" "PHIB" "VSS") ("A" "B" "OUT" "PHIA" "PHIB" "VSS"))
+"ee140_gsi.OR2HDX0_dupe.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
+"ee140_gsi.BGR_mockup.schematic.termorder" nil
+"ee140_gsi.clk_nonoverlapping.schematic.termorder" nil
+"ee140_gsi.PGA_mockup.schematic.termorder" nil
+"ee140_gsi.mux_mockup.schematic.termorder" (("IN<3>" "IN<2>" "IN<1>" "IN<0>" "OUT" "S<1>" "S<0>" "VDD" "VSS") ("IN<0>" "IN<1>" "IN<2>" "IN<3>" "OUT" "S<1>" "S<0>" "VDD" "VSS"))
+"ee140_gsi.NA2HDX0_dupe.schematic.termorder" nil
+"ee140_gsi.DFRRSHDX0_dupe.schematic.termorder" nil
+"ee140_gsi.mux2_mockup.schematic.termorder" (("IN<1>" "IN<0>" "S" "VDD" "VOUT" "VSS") ("IN<0>" "IN<1>" "S" "VDD" "VOUT" "VSS"))
+"ee140_gsi.opamp_mockup.schematic.termorder" (("VDD" "VINN" "VINP" "VOUT" "VSS") ("VDD" "VINN" "VINP" "VOUT" "VSS"))
+"ee140_gsi.DREG_mockup.schematic.termorder" nil
+"ee140_gsi.VBATDIV4_mockup.schematic.termorder" (("VBAT" "VBATDIV4" "VSS") ("VBAT" "VBATDIV4" "VSS"))
+"ee140_gsi.EE140_Sp20_digital.schematic.termorder" nil
+"ee140_gsi.AND2HDX0_dupe.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
+"ee140_gsi.SAR_DFF.schematic.termorder" (("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "RESETB" "DONE" "VDD" "VSS") ("CLK" "COMP" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "DONE" "RESETB" "VDD" "VSS"))
+"ee140_gsi.nor2_dupe.schematic.termorder" (("a" "b" "out" "VDD" "VSS") ("VDD" "VSS" "a" "b" "out"))
+"ee140_gsi.SAR_FSM_HW.schematic.termorder" (("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion") ("VDD" "VSS" "adc_convert" "adc_done" "adc_resetb" "clk" "clk_dff" "clk_pga" "run_conversion"))
+"ee140_gsi.ADC_mockup.schematic.termorder" (("CLK" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "VDD" "VIN" "VREF" "VSS" "COMPARE" "LOAD") ("CLK" "COMPARE" "COMP_OUT" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDD" "VIN" "VREF" "VSS"))
+"ee140_gsi.XNOR_gate.schematic.termorder" (("A" "B" "OUT" "VDD" "VSS") ("A" "B" "OUT" "VDD" "VSS"))
+"ee140_gsi.invr_dupe.schematic.termorder" (("in" "out" "VDD" "VSS") ("VDD" "VSS" "in" "out"))
+"ee140_gsi.AREG_mockup.schematic.termorder" (("VBAT" "VDDA" "VREF" "VSS") ("VBAT" "VDDA" "VREF" "VSS"))
+"ee140_gsi.EE140_Sp20_studentMockup.schematic.termorder" nil
+"ee140_gsi.capdac_mockup.schematic.termorder" (("D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDAC" "VDD" "VIN" "VREF" "VSS" "COMPARE") ("COMPARE" "D<7>" "D<6>" "D<5>" "D<4>" "D<3>" "D<2>" "D<1>" "D<0>" "LOAD" "VDAC" "VDD" "VIN" "VREF" "VSS"))

@@ -1,0 +1,6 @@
+    I0 (A B net11 VDD VSS) nor2_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I1 (net11 OUT VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends OR2HDX0_dupe
+// End of subcircuit definition.

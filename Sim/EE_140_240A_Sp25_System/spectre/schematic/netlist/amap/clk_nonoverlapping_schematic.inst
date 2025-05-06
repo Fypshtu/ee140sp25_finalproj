@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"I7n I0n" "NA2HDX0_dupe_schematic"
+"C5n C4n C3n C2n C1n C0n" "analogLib_cap_spectre"
+"I9n I8n I6n I5n I4n I3n I2n" "invr_dupe_schematic"
+"CLK_INv" ":1v"
+"PHI1v" ":2v"
+"PHI2v" ":3v"
+"VDDv" ":4v"
+"VSSv" ":5v"

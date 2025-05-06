@@ -1,0 +1,29 @@
+    I36 (clk next_state\<1\> S\<1\> net1 VDD VDD VDD VSS) DFRRSHDX0_dupe
+    I0 (clk next_state\<0\> S\<0\> net5 VDD VDD VDD VSS) DFRRSHDX0_dupe
+    I28 (VSS net11 net12 VDD next_state\<1\> VSS) mux2_mockup
+    I6 (VDD VSS M_SEL_CONV\<1\> VDD adc_convert VSS) mux2_mockup
+    I4 (VSS VDD net12 VDD clk_pga VSS) mux2_mockup
+    I3 (VSS VDD net12 VDD adc_resetb VSS) mux2_mockup
+    I2 (VDD net14 net12 VDD next_state\<0\> VSS) mux2_mockup
+    I32 (VSS VSS net15 net13 next_state\<1\> M_SEL_CONV\<1\> \
+        M_SEL_CONV\<0\> VDD VSS) mux_mockup
+    I25 (VDD VSS net10 net9 next_state\<1\> M_SEL_IDLE\<1\> \
+        M_SEL_IDLE\<0\> VDD VSS) mux_mockup
+    I8 (VSS VSS net46 net41 next_state\<0\> M_SEL_IDLE\<1\> \
+        M_SEL_IDLE\<0\> VDD VSS) mux_mockup
+    I7 (VSS VDD net32 net27 next_state\<0\> M_SEL_CONV\<1\> \
+        M_SEL_CONV\<0\> VDD VSS) mux_mockup
+    I38 (clk adc_convert clk_dff VDD VSS) AND2HDX0_dupe
+    I24 (VDD run_conversion M_SEL_IDLE\<0\> VDD VSS) AND2HDX0_dupe
+    I23 (VDD adc_done M_SEL_CONV\<0\> VDD VSS) AND2HDX0_dupe
+    I11 (net63 net62 M_SEL_CONV\<1\> VDD VSS) AND2HDX0_dupe
+    I10 (net58 net57 net12 VDD VSS) AND2HDX0_dupe
+    I9 (net53 net52 M_SEL_IDLE\<1\> VDD VSS) AND2HDX0_dupe
+    I17 (S\<0\> VDD net63 VDD VSS) XNOR_gate
+    I16 (S\<1\> VSS net62 VDD VSS) XNOR_gate
+    I15 (S\<1\> VDD net57 VDD VSS) XNOR_gate
+    I14 (S\<0\> VSS net58 VDD VSS) XNOR_gate
+    I13 (S\<1\> VSS net52 VDD VSS) XNOR_gate
+    I12 (S\<0\> VSS net53 VDD VSS) XNOR_gate
+ends SAR_FSM_HW
+// End of subcircuit definition.

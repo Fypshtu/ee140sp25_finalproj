@@ -1,0 +1,6 @@
+    NM0 (Vin S Vout GND) nfet_01v8 w=(550n) l=150n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM0 (Vin Sbar Vout VDD) pfet_01v8 w=(550n) l=150n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+ends TG
+// End of subcircuit definition.

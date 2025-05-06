@@ -1,0 +1,6 @@
+TDMCHECKPOINT="1.0"
+ee140_gsi/pmos_cascode type="cell"
+ee140_gsi/pmos_cascode_wrap type="cell"
+ee140_gsi/zz_pmos_cascode_closedLoop type="cell"
+ee140_gsi/zz_pmos_cascode_openLoop type="cell"
+keepEmptyCategory type="unknown"

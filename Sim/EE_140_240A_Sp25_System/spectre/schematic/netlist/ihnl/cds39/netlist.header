@@ -1,0 +1,5 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: NA2HDX0_dupe
+// View name: schematic
+subckt NA2HDX0_dupe_schematic A B Q VDD VSS

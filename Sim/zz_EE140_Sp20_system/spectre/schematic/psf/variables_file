@@ -1,0 +1,25 @@
+HEADER
+"PSFversion" "1.00"
+"Time Stamp" "Apr 20 16:04:04 2025"
+TYPE
+"variable" STRUCT(
+"value" FLOAT DOUBLE
+) PROP( "key" "element" )
+VALUE
+"VIN_1" "variable" ( 1 ) PROP( )
+"VIN_0" "variable" ( 500e-3 ) PROP( )
+"VDDD_IDEAL" "variable" ( 1.8 ) PROP( )
+"VDDA_IDEAL" "variable" ( 1.8 ) PROP( )
+"VBAT" "variable" ( 1.6 ) PROP( )
+"TR_D" "variable" ( 1e-6 ) PROP( )
+"TRISE_BAT" "variable" ( 100e-9 ) PROP( )
+"S_1" "variable" ( 0 ) PROP( )
+"S_0" "variable" ( 0 ) PROP( )
+"NBAT" "variable" ( 2 ) PROP( )
+"G_2" "variable" ( 0 ) PROP( )
+"G_1" "variable" ( 0 ) PROP( )
+"G_0" "variable" ( 0 ) PROP( )
+"FCLK" "variable" ( 1e6 ) PROP( )
+"_EXPR_7" "variable" ( 20e-6 ) PROP( )
+"temp" "variable" ( 27 ) PROP( )
+END

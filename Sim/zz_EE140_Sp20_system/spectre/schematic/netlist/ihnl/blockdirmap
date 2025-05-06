@@ -1,0 +1,26 @@
+CADENCE IHNL111424
+
+ee140_gsi opamp_mockup schematic cds0
+ee140_gsi invr_dupe schematic cds1
+ee140_gsi switch2_mockup schematic cds2
+ee140_gsi capdac_mockup schematic cds3
+ee140_gsi ADC_mockup schematic cds4
+ee140_gsi AND2HDX0_dupe schematic cds5
+ee140_gsi nor2_dupe schematic cds6
+ee140_gsi OR2HDX0_dupe schematic cds7
+ee140_gsi PGA_mockup schematic cds8
+ee140_gsi mux_mockup schematic cds9
+ee140_gsi BGR_mockup schematic cds10
+ee140_gsi AREG_mockup schematic cds11
+ee140_gsi DREG_mockup schematic cds12
+ee140_gsi VBATDIV4_mockup schematic cds13
+ee140_gsi EE140_Sp20_studentMockup schematic cds14
+ee140_gsi NA2HDX0_dupe schematic cds15
+ee140_gsi clk_nonoverlapping schematic cds16
+ee140_gsi DFRRSHDX0_dupe schematic cds17
+ee140_gsi SAR_DFF schematic cds18
+ee140_gsi mux2_mockup schematic cds19
+ee140_gsi XNOR_gate schematic cds20
+ee140_gsi SAR_FSM_HW schematic cds21
+ee140_gsi EE140_Sp20_digital schematic cds22
+ee140_gsi zz_EE140_Sp20_system schematic cds23

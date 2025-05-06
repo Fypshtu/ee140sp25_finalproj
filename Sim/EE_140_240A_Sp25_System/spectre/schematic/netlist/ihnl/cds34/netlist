@@ -1,0 +1,4 @@
+    R0 (VBAT VBATDIV4) resistor r=24K
+    R1 (VBATDIV4 VSS) resistor r=8K
+ends VBATDIV4_mockup_schematic
+// End of subcircuit definition.

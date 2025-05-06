@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: comparator
+// View name: schematic
+subckt comparator OUT GND VDDA CK Vin1 Vin2

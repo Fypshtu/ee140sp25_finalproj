@@ -1,0 +1,24 @@
+    PM5 (net4 CK VDDA VDDA) pfet_01v8 w=(600n) l=300n as=159f ad=159f \
+        ps=1.73u pd=1.73u m=(1)*(1)
+    PM4 (Y CK VDDA VDDA) pfet_01v8 w=(550n) l=225n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM3 (X Y VDDA VDDA) pfet_01v8 w=(550n) l=225n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM2 (Y X VDDA VDDA) pfet_01v8 w=(550n) l=225n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM1 (X CK VDDA VDDA) pfet_01v8 w=(550n) l=225n as=145.75f ad=145.75f \
+        ps=1.63u pd=1.63u m=(1)*(1)
+    PM0 (net3 CK VDDA VDDA) pfet_01v8 w=(550n) l=225n as=145.75f \
+        ad=145.75f ps=1.63u pd=1.63u m=(1)*(1)
+    NM4 (net4 Vin2 net5 GND) nfet_01v8 w=(420n) l=210n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM3 (X Y net3 GND) nfet_01v8 w=(420n) l=210n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM2 (Y X net4 GND) nfet_01v8 w=(420n) l=210n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM1 (net3 Vin1 net5 GND) nfet_01v8 w=(420n) l=210n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM0 (net5 CK GND GND) nfet_01v8 w=(420n) l=210n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+ends strongARM_latch
+// End of subcircuit definition.

@@ -1,0 +1,6 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: BGR_mockup
+// View name: schematic
+subckt BGR_mockup_schematic VBAT VBG VPTAT VREF_ADC VSS
+parameters TSTART_A TR_A

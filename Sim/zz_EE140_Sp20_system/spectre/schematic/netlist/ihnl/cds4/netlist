@@ -1,0 +1,5 @@
+    X_COMP (VDD VDAC VREF COMP_OUT VSS) opamp_mockup Rout=0
+    X_CAPDAC (D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> LOAD \
+        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup C0=1f
+ends ADC_mockup
+// End of subcircuit definition.

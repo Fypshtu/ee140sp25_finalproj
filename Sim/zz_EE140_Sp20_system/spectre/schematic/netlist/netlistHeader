@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Apr 19 21:45:13 2025
+// Design library name: ee140_gsi
+// Design cell name: zz_EE140_Sp20_system
+// Design view name: schematic
+simulator lang=spectre
+global 0

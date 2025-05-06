@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: DREG_mockup
+// View name: schematic
+subckt DREG_mockup VBAT VDDD VREF VSS

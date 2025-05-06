@@ -1,0 +1,12 @@
+    X_ADC (CLK_ADC COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+        D\<0\> VDDA PGA_OUT VREF_ADC VSS CLK_PGA1 CLK_PGA2) ADC_mockup
+    X_PGA (CLK_PGA1 CLK_PGA2 G\<2\> G\<1\> G\<0\> VDDA MUX_OUT PGA_OUT \
+        VSS) PGA_mockup C0=1f
+    X_MUX (VPTAT VBATDIV4 EXT_IN\<1\> EXT_IN\<0\> MUX_OUT S\<1\> S\<0\> \
+        VDDA VSS) mux_mockup
+    X_BGR (VBAT VREF_REG VPTAT VREF_ADC VSS) BGR_mockup TSTART_A=0 TR_A=1u
+    X_AREG (VBAT VDDA VREF_REG VSS) AREG_mockup
+    X_DREG (VBAT VDDD VREF_REG VSS) DREG_mockup
+    X_DIV4 (VBAT VBATDIV4 VSS) VBATDIV4_mockup
+ends EE140_Sp20_studentMockup
+// End of subcircuit definition.

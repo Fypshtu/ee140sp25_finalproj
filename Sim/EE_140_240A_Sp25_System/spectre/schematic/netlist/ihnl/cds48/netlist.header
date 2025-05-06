@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: TG
+// View name: schematic
+subckt TG GND S Sbar VDD Vin Vout

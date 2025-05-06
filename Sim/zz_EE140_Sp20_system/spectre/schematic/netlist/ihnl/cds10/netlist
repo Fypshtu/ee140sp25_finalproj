@@ -1,0 +1,5 @@
+    V0 (VBG VSS) vsource type=pulse edgetype=halfsine val0=0 val1=1.2 \
+        delay=TSTART_A rise=TR_A
+    V1 (VREF_ADC VSS) vsource dc=1.2 type=dc
+ends BGR_mockup
+// End of subcircuit definition.

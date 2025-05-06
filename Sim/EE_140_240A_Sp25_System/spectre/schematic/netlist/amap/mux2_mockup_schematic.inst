@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"W1n W0n" "analogLib_switch_spectre"
+"I0n" "invr_dupe_schematic"
+"IN<1>v" ":1v"
+"IN<0>v" ":2v"
+"Sv" ":3v"
+"VDDv" ":4v"
+"VOUTv" ":5v"
+"VSSv" ":6v"

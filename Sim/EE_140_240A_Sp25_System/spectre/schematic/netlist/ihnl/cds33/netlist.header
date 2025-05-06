@@ -1,0 +1,5 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: DREG_mockup
+// View name: schematic
+subckt DREG_mockup_schematic VBAT VDDD VREF VSS

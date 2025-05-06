@@ -1,0 +1,5 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: OR2HDX0_dupe
+// View name: schematic
+subckt OR2HDX0_dupe_schematic A B OUT VDD VSS

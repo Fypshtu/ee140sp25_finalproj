@@ -1,0 +1,6 @@
+
+// Library name: ee140_gsi
+// Cell name: SAR_DFF
+// View name: schematic
+subckt SAR_DFF CLK COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+        D\<0\> RESETB DONE VDD VSS

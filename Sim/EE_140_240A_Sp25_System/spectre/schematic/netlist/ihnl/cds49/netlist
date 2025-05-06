@@ -1,0 +1,6 @@
+    NM0 (out in GND GND) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    PM0 (out in VDD VDD) pfet_01v8 w=(840n) l=150n as=222.6f ad=222.6f \
+        ps=2.21u pd=2.21u m=(1)*(1)
+ends inverter_adc
+// End of subcircuit definition.

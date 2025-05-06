@@ -1,0 +1,100 @@
+    I0 (C CIB VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I2 (SQI QN VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I1 (CIB CI VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I3 (SQIB Q VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    MN10 (SQIB CI net268 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN14 (SQIB CIB net266 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN2 (MQIB CIB net271 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN6 (MQIB CI net270 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN13 (net266 SQI net265 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN7 (MQI MQIB net269 VSS) ne w=505.00n l=180.0n as=2.424e-13 \
+        ad=2.424e-13 ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 \
+        m=(1)*(1) par1=((1)*(1))
+    MN15 (SQI SQIB net264 VSS) ne w=890.0n l=180.0n as=4.272e-13 \
+        ad=4.272e-13 ps=2.74e-06 pd=2.74e-06 nrs=0.303371 nrd=0.303371 \
+        m=(1)*(1) par1=((1)*(1))
+    MN9 (net268 MQI net267 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN1 (net271 D net273 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN5 (net270 MQI net272 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN11 (net267 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN16 (net264 SN VSS VSS) ne w=890.0n l=180.0n as=4.272e-13 \
+        ad=4.272e-13 ps=2.74e-06 pd=2.74e-06 nrs=0.303371 nrd=0.303371 \
+        m=(1)*(1) par1=((1)*(1))
+    MN12 (net265 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN8 (net269 SN VSS VSS) ne w=505.00n l=180.0n as=2.424e-13 \
+        ad=2.424e-13 ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 \
+        m=(1)*(1) par1=((1)*(1))
+    MN3 (net273 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MN4 (net272 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MP3 (MQIB RN VDD VDD) pe w=955.00n l=180.0n as=4.584e-13 ad=4.584e-13 \
+        ps=2.87e-06 pd=2.87e-06 nrs=0.282723 nrd=0.282723 m=(1)*(1) \
+        par1=((1)*(1))
+    MP14 (SQI SN VDD VDD) pe w=925.00n l=180.0n as=4.44e-13 ad=4.44e-13 \
+        ps=2.81e-06 pd=2.81e-06 nrs=0.291892 nrd=0.291892 m=(1)*(1) \
+        par1=((1)*(1))
+    MP10 (SQIB RN VDD VDD) pe w=505.00n l=180.0n as=2.424e-13 ad=2.424e-13 \
+        ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 m=(1)*(1) \
+        par1=((1)*(1))
+    MP6 (MQI MQIB VDD VDD) pe w=850.0n l=180.0n as=4.08e-13 ad=4.08e-13 \
+        ps=2.66e-06 pd=2.66e-06 nrs=0.317647 nrd=0.317647 m=(1)*(1) \
+        par1=((1)*(1))
+    MP9 (net261 MQI VDD VDD) pe w=715.00n l=180.0n as=3.432e-13 \
+        ad=3.432e-13 ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 \
+        m=(1)*(1) par1=((1)*(1))
+    MP7 (MQI SN VDD VDD) pe w=850.0n l=180.0n as=4.08e-13 ad=4.08e-13 \
+        ps=2.66e-06 pd=2.66e-06 nrs=0.317647 nrd=0.317647 m=(1)*(1) \
+        par1=((1)*(1))
+    MP13 (SQI SQIB VDD VDD) pe w=925.00n l=180.0n as=4.44e-13 ad=4.44e-13 \
+        ps=2.81e-06 pd=2.81e-06 nrs=0.291892 nrd=0.291892 m=(1)*(1) \
+        par1=((1)*(1))
+    MP12 (net260 SQI VDD VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP5 (net262 MQI VDD VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP2 (net263 D VDD VDD) pe w=705.00n l=180.0n as=3.384e-13 ad=3.384e-13 \
+        ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 m=(1)*(1) \
+        par1=((1)*(1))
+    MP11 (SQIB CI net260 VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP4 (MQIB CIB net262 VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP8 (SQIB CIB net261 VDD) pe w=715.00n l=180.0n as=3.432e-13 \
+        ad=3.432e-13 ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 \
+        m=(1)*(1) par1=((1)*(1))
+    MP1 (MQIB CI net263 VDD) pe w=705.00n l=180.0n as=3.384e-13 \
+        ad=3.384e-13 ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 \
+        m=(1)*(1) par1=((1)*(1))
+ends DFRRSHDX0_dupe
+// End of subcircuit definition.

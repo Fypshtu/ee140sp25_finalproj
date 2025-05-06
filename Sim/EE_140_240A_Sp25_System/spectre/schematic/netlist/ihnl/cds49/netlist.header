@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: inverter_adc
+// View name: schematic
+subckt inverter_adc out GND VDD in

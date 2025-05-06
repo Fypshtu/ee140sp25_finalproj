@@ -1,0 +1,6 @@
+
+// Library name: ee140_gsi
+// Cell name: SAR_FSM_HW
+// View name: schematic
+subckt SAR_FSM_HW VDD VSS adc_convert adc_done adc_resetb clk clk_dff \
+        clk_pga run_conversion

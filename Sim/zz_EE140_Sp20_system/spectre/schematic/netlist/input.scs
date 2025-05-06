@@ -1,0 +1,615 @@
+// Generated for: spectre
+// Generated on: Apr 19 21:45:13 2025
+// Design library name: ee140_gsi
+// Design cell name: zz_EE140_Sp20_system
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters _EXPR_7=2e-05 FCLK=1M G_0=0 G_1=0 G_2=0 NBAT=2 S_0=0 S_1=0 \
+    TRISE_BAT=100n TR_D=1u VBAT=1.6 VDDA_IDEAL=1.8 VDDD_IDEAL=1.8 \
+    VIN_0=0.5 VIN_1=1
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/config.scs" section=default
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/param.scs" section=3s
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/bip.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/cap.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/dio.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/mos.scs" section=tm
+include "/home/ff/ee140/fa19/xfab/XKIT/xt018/cadence/v8_0/spectre/v8_0_2/lp5mos/res.scs" section=tm
+include "/home/cc/ee140/sp25/staff/ee140-tab/cadence/cadence_finalproj/sky130_release_0.0.4/models/sky130.lib.spice" section=tt
+
+// Library name: ee140_gsi
+// Cell name: opamp_mockup
+// View name: schematic
+subckt opamp_mockup VDD VINN VINP VOUT VSS
+parameters Rout
+    E0 (net8 VSS VINP VINN) vcvs gain=1000 type=vcvs min=0 max=1.8
+    R0 (net8 VOUT) resistor r=Rout
+ends opamp_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: invr_dupe
+// View name: schematic
+subckt invr_dupe in out VDD VSS
+parameters GT_PDW GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW \
+        GT_PUL=180.00n
+    ne (out in VSS VSS) ne w=GT_PDW l=GT_PDL as=sx*(GT_PDW) ad=sx*(GT_PDW) \
+        ps=2*(sx+(GT_PDW)) pd=2*(sx+(GT_PDW)) nrs=lc/(GT_PDW) \
+        nrd=lc/(GT_PDW) m=(1)*(1) par1=((1)*(1))
+    pe (out in VDD VDD) pe w=GT_PUW l=GT_PUL as=sx*(GT_PUW) ad=sx*(GT_PUW) \
+        ps=2*(sx+(GT_PUW)) pd=2*(sx+(GT_PUW)) nrs=lc/(GT_PUW) \
+        nrd=lc/(GT_PUW) m=(1)*(1) par1=((1)*(1))
+ends invr_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: switch2_mockup
+// View name: schematic
+subckt switch2_mockup A B OUT PHIA PHIB VSS
+    W1 (OUT A PHIA VSS) relay vt1=100m vt2=600m ropen=1M rclosed=10
+    W0 (OUT B PHIB VSS) relay vt1=100m vt2=600m ropen=1M rclosed=10
+ends switch2_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: capdac_mockup
+// View name: schematic
+subckt capdac_mockup D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+        D\<0\> LOAD VDAC VDD VIN VREF VSS COMPARE
+parameters C0
+    C8 (VDAC BOT\<7\>) capacitor c=C0 m=128
+    C7 (VDAC BOT\<6\>) capacitor c=C0 m=64
+    C6 (VDAC BOT\<5\>) capacitor c=C0 m=32
+    C5 (VDAC BOT\<4\>) capacitor c=C0 m=16
+    C4 (VDAC BOT\<3\>) capacitor c=C0 m=8
+    C3 (VDAC BOT\<2\>) capacitor c=C0 m=4
+    C2 (VDAC BOT\<1\>) capacitor c=C0 m=2
+    C1 (VDAC BOT\<0\>) capacitor c=C0 m=1
+    C0 (VDAC BOTX) capacitor c=C0 m=1
+    W0 (VREF VDAC LOAD VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    I17 (net031 D_SHIFT\<7\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I16 (net032 D_SHIFT\<6\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I15 (D\<7\> net031 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I14 (D\<6\> net032 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I13 (net033 D_SHIFT\<5\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I12 (net034 D_SHIFT\<4\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I11 (D\<5\> net033 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I10 (D\<4\> net034 VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I9 (net035 D_SHIFT\<3\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I8 (net036 D_SHIFT\<2\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I7 (D\<3\> net035 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I6 (D\<2\> net036 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I5 (net07 D_SHIFT\<1\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I4 (net08 D_SHIFT\<0\> VREF_SHIFT VSS) invr_dupe GT_PDW=420n \
+        GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (D\<1\> net07 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I2 (D\<0\> net08 VREF_SHIFT VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    E8 (D_BUF\<7\> VSS D_SHIFT\<7\> VSS) vcvs gain=1.0
+    E7 (D_BUF\<6\> VSS D_SHIFT\<6\> VSS) vcvs gain=1.0
+    E6 (D_BUF\<5\> VSS D_SHIFT\<5\> VSS) vcvs gain=1.0
+    E5 (D_BUF\<4\> VSS D_SHIFT\<4\> VSS) vcvs gain=1.0
+    E4 (D_BUF\<3\> VSS D_SHIFT\<3\> VSS) vcvs gain=1.0
+    E3 (D_BUF\<2\> VSS D_SHIFT\<2\> VSS) vcvs gain=1.0
+    E2 (D_BUF\<1\> VSS D_SHIFT\<1\> VSS) vcvs gain=1.0
+    E1 (D_BUF\<0\> VSS D_SHIFT\<0\> VSS) vcvs gain=1.0
+    E0 (VREF_SHIFT VSS VREF VSS) vcvs gain=1.0 type=vcvs
+    I26 (VIN D_BUF\<7\> BOT\<7\> LOAD COMPARE VSS) switch2_mockup
+    I33 (VIN D_BUF\<0\> BOT\<0\> LOAD COMPARE VSS) switch2_mockup
+    I32 (VIN D_BUF\<1\> BOT\<1\> LOAD COMPARE VSS) switch2_mockup
+    I31 (VIN D_BUF\<2\> BOT\<2\> LOAD COMPARE VSS) switch2_mockup
+    I30 (VIN D_BUF\<3\> BOT\<3\> LOAD COMPARE VSS) switch2_mockup
+    I29 (VIN D_BUF\<4\> BOT\<4\> LOAD COMPARE VSS) switch2_mockup
+    I28 (VIN D_BUF\<5\> BOT\<5\> LOAD COMPARE VSS) switch2_mockup
+    I27 (VIN D_BUF\<6\> BOT\<6\> LOAD COMPARE VSS) switch2_mockup
+    I34 (VIN VSS BOTX LOAD COMPARE VSS) switch2_mockup
+ends capdac_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: ADC_mockup
+// View name: schematic
+subckt ADC_mockup CLK COMP_OUT D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> \
+        D\<1\> D\<0\> VDD VIN VREF VSS COMPARE LOAD
+    X_COMP (VDD VDAC VREF COMP_OUT VSS) opamp_mockup Rout=0
+    X_CAPDAC (D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> LOAD \
+        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup C0=1f
+ends ADC_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: AND2HDX0_dupe
+// View name: schematic
+subckt AND2HDX0_dupe A B OUT VDD VSS
+    ne (OUT net027 VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MN1 (net027 A net029 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN2 (net029 B VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    pe (OUT net027 VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+    MP1 (net027 A VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+    MP2 (net027 B VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+ends AND2HDX0_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: nor2_dupe
+// View name: schematic
+subckt nor2_dupe a b out VDD VSS
+parameters GT_PDW GT_PDL=180.00n sx=4.8e-07 lc=2.7e-07 GT_PUW \
+        GT_PUL=180.00n
+    MN1 (out b VSS VSS) ne w=GT_PDW l=GT_PDL as=sx*(GT_PDW) ad=sx*(GT_PDW) \
+        ps=2*(sx+(GT_PDW)) pd=2*(sx+(GT_PDW)) nrs=lc/(GT_PDW) \
+        nrd=lc/(GT_PDW) m=(1)*(1) par1=((1)*(1))
+    MN2 (out a VSS VSS) ne w=GT_PDW l=GT_PDL as=sx*(GT_PDW) ad=sx*(GT_PDW) \
+        ps=2*(sx+(GT_PDW)) pd=2*(sx+(GT_PDW)) nrs=lc/(GT_PDW) \
+        nrd=lc/(GT_PDW) m=(1)*(1) par1=((1)*(1))
+    MP1 (out a net14 VDD) pe w=GT_PUW l=GT_PUL as=sx*(GT_PUW) \
+        ad=sx*(GT_PUW) ps=2*(sx+(GT_PUW)) pd=2*(sx+(GT_PUW)) \
+        nrs=lc/(GT_PUW) nrd=lc/(GT_PUW) m=(1)*(1) par1=((1)*(1))
+    MP2 (net14 b VDD VDD) pe w=GT_PUW l=GT_PUL as=sx*(GT_PUW) \
+        ad=sx*(GT_PUW) ps=2*(sx+(GT_PUW)) pd=2*(sx+(GT_PUW)) \
+        nrs=lc/(GT_PUW) nrd=lc/(GT_PUW) m=(1)*(1) par1=((1)*(1))
+ends nor2_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: OR2HDX0_dupe
+// View name: schematic
+subckt OR2HDX0_dupe A B OUT VDD VSS
+    I0 (A B net11 VDD VSS) nor2_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I1 (net11 OUT VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends OR2HDX0_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: PGA_mockup
+// View name: schematic
+subckt PGA_mockup CLK1 CLK2 G\<2\> G\<1\> G\<0\> VDD VIN VOUT VSS
+parameters C0
+    C4 (net2 net016) capacitor c=4*C0
+    C7 (net2 net1) capacitor c=C0
+    C6 (net2 net014) capacitor c=C0
+    C8 (VOUT net2) capacitor c=C0
+    C5 (net2 net015) capacitor c=2*C0
+    W9 (net016 VSS CLK2_GATE\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W8 (VIN net016 X\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W7 (VIN net015 X\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W6 (net015 VSS CLK2_GATE\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W5 (VIN net014 X\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W4 (net014 VSS CLK2_GATE\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W3 (VSS VOUT CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W2 (VSS net2 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W1 (VIN net1 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W0 (net1 VSS CLK2 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    X_AMP (VDD net2 VSS VOUT VSS) opamp_mockup Rout=0
+    I5 (G\<2\> CLK1 X\<2\> VDD VSS) AND2HDX0_dupe
+    I4 (G\<1\> CLK1 X\<1\> VDD VSS) AND2HDX0_dupe
+    I3 (G\<0\> CLK1 X\<0\> VDD VSS) AND2HDX0_dupe
+    I12 (CLK2 GB\<2\> CLK2_GATE\<2\> VDD VSS) OR2HDX0_dupe
+    I11 (CLK2 GB\<1\> CLK2_GATE\<1\> VDD VSS) OR2HDX0_dupe
+    I6 (CLK2 GB\<0\> CLK2_GATE\<0\> VDD VSS) OR2HDX0_dupe
+    I13 (G\<2\> GB\<2\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I9 (G\<0\> GB\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I10 (G\<1\> GB\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends PGA_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: mux_mockup
+// View name: schematic
+subckt mux_mockup IN\<3\> IN\<2\> IN\<1\> IN\<0\> OUT S\<1\> S\<0\> VDD \
+        VSS
+    W5 (net07 OUT S\<1\> VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    W4 (net6 OUT Sb\<1\> VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    W3 (IN\<3\> net07 S\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W2 (IN\<2\> net07 Sb\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W1 (IN\<1\> net6 S\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    W0 (IN\<0\> net6 Sb\<0\> VSS) relay vt1=100m vt2=600m ropen=1T \
+        rclosed=10
+    I1 (S\<1\> Sb\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I0 (S\<0\> Sb\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends mux_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: BGR_mockup
+// View name: schematic
+subckt BGR_mockup VBAT VBG VPTAT VREF_ADC VSS
+parameters TSTART_A TR_A
+    V0 (VBG VSS) vsource type=pulse edgetype=halfsine val0=0 val1=1.2 \
+        delay=TSTART_A rise=TR_A
+    V1 (VREF_ADC VSS) vsource dc=1.2 type=dc
+ends BGR_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: AREG_mockup
+// View name: schematic
+subckt AREG_mockup VBAT VDDA VREF VSS
+    E0 (VDDA VSS VREF VSS) vcvs gain=10 type=vcvs min=0 max=1.8
+ends AREG_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: DREG_mockup
+// View name: schematic
+subckt DREG_mockup VBAT VDDD VREF VSS
+    E0 (VDDD VSS VREF VSS) vcvs gain=10 type=vcvs min=0 max=1.8
+ends DREG_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: VBATDIV4_mockup
+// View name: schematic
+subckt VBATDIV4_mockup VBAT VBATDIV4 VSS
+    E0 (VBATDIV4 VSS VBAT VSS) vcvs gain=1/4 type=vcvs
+ends VBATDIV4_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: EE140_Sp20_studentMockup
+// View name: schematic
+subckt EE140_Sp20_studentMockup CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> \
+        D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> \
+        EXT_IN\<1\> G\<2\> G\<1\> G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA \
+        VDDD VPTAT VSS
+    X_ADC (CLK_ADC COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+        D\<0\> VDDA PGA_OUT VREF_ADC VSS CLK_PGA1 CLK_PGA2) ADC_mockup
+    X_PGA (CLK_PGA1 CLK_PGA2 G\<2\> G\<1\> G\<0\> VDDA MUX_OUT PGA_OUT \
+        VSS) PGA_mockup C0=1f
+    X_MUX (VPTAT VBATDIV4 EXT_IN\<1\> EXT_IN\<0\> MUX_OUT S\<1\> S\<0\> \
+        VDDA VSS) mux_mockup
+    X_BGR (VBAT VREF_REG VPTAT VREF_ADC VSS) BGR_mockup TSTART_A=0 TR_A=1u
+    X_AREG (VBAT VDDA VREF_REG VSS) AREG_mockup
+    X_DREG (VBAT VDDD VREF_REG VSS) DREG_mockup
+    X_DIV4 (VBAT VBATDIV4 VSS) VBATDIV4_mockup
+ends EE140_Sp20_studentMockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: NA2HDX0_dupe
+// View name: schematic
+subckt NA2HDX0_dupe A B Q VDD VSS
+    MN1 (Q A net44 VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MN2 (net44 B VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MP1 (Q A VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+    MP2 (Q B VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+ends NA2HDX0_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: clk_nonoverlapping
+// View name: schematic
+subckt clk_nonoverlapping CLK_IN PHI1 PHI2 VDD VSS
+    I9 (net08 PHI2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I8 (net09 PHI1 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I6 (CLK_IN net5 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I5 (net3 net09 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I4 (net2 net08 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (net1 net2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I2 (net4 net3 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I7 (net09 net5 net1 VDD VSS) NA2HDX0_dupe
+    I0 (CLK_IN net08 net4 VDD VSS) NA2HDX0_dupe
+    C5 (net08 VSS) capacitor c=100f
+    C4 (net09 VSS) capacitor c=100f
+    C3 (net3 VSS) capacitor c=100f
+    C2 (net4 VSS) capacitor c=100f
+    C1 (net2 VSS) capacitor c=100f
+    C0 (net1 VSS) capacitor c=100f
+ends clk_nonoverlapping
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: DFRRSHDX0_dupe
+// View name: schematic
+subckt DFRRSHDX0_dupe C D Q QN RN SN VDD VSS
+    I0 (C CIB VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I2 (SQI QN VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I1 (CIB CI VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    I3 (SQIB Q VDD VSS) invr_dupe GT_PDW=420.0n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720.00n GT_PUL=180.00n
+    MN10 (SQIB CI net268 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN14 (SQIB CIB net266 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN2 (MQIB CIB net271 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN6 (MQIB CI net270 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN13 (net266 SQI net265 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN7 (MQI MQIB net269 VSS) ne w=505.00n l=180.0n as=2.424e-13 \
+        ad=2.424e-13 ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 \
+        m=(1)*(1) par1=((1)*(1))
+    MN15 (SQI SQIB net264 VSS) ne w=890.0n l=180.0n as=4.272e-13 \
+        ad=4.272e-13 ps=2.74e-06 pd=2.74e-06 nrs=0.303371 nrd=0.303371 \
+        m=(1)*(1) par1=((1)*(1))
+    MN9 (net268 MQI net267 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN1 (net271 D net273 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN5 (net270 MQI net272 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN11 (net267 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN16 (net264 SN VSS VSS) ne w=890.0n l=180.0n as=4.272e-13 \
+        ad=4.272e-13 ps=2.74e-06 pd=2.74e-06 nrs=0.303371 nrd=0.303371 \
+        m=(1)*(1) par1=((1)*(1))
+    MN12 (net265 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN8 (net269 SN VSS VSS) ne w=505.00n l=180.0n as=2.424e-13 \
+        ad=2.424e-13 ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 \
+        m=(1)*(1) par1=((1)*(1))
+    MN3 (net273 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MN4 (net272 RN VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MP3 (MQIB RN VDD VDD) pe w=955.00n l=180.0n as=4.584e-13 ad=4.584e-13 \
+        ps=2.87e-06 pd=2.87e-06 nrs=0.282723 nrd=0.282723 m=(1)*(1) \
+        par1=((1)*(1))
+    MP14 (SQI SN VDD VDD) pe w=925.00n l=180.0n as=4.44e-13 ad=4.44e-13 \
+        ps=2.81e-06 pd=2.81e-06 nrs=0.291892 nrd=0.291892 m=(1)*(1) \
+        par1=((1)*(1))
+    MP10 (SQIB RN VDD VDD) pe w=505.00n l=180.0n as=2.424e-13 ad=2.424e-13 \
+        ps=1.97e-06 pd=1.97e-06 nrs=0.534653 nrd=0.534653 m=(1)*(1) \
+        par1=((1)*(1))
+    MP6 (MQI MQIB VDD VDD) pe w=850.0n l=180.0n as=4.08e-13 ad=4.08e-13 \
+        ps=2.66e-06 pd=2.66e-06 nrs=0.317647 nrd=0.317647 m=(1)*(1) \
+        par1=((1)*(1))
+    MP9 (net261 MQI VDD VDD) pe w=715.00n l=180.0n as=3.432e-13 \
+        ad=3.432e-13 ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 \
+        m=(1)*(1) par1=((1)*(1))
+    MP7 (MQI SN VDD VDD) pe w=850.0n l=180.0n as=4.08e-13 ad=4.08e-13 \
+        ps=2.66e-06 pd=2.66e-06 nrs=0.317647 nrd=0.317647 m=(1)*(1) \
+        par1=((1)*(1))
+    MP13 (SQI SQIB VDD VDD) pe w=925.00n l=180.0n as=4.44e-13 ad=4.44e-13 \
+        ps=2.81e-06 pd=2.81e-06 nrs=0.291892 nrd=0.291892 m=(1)*(1) \
+        par1=((1)*(1))
+    MP12 (net260 SQI VDD VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP5 (net262 MQI VDD VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP2 (net263 D VDD VDD) pe w=705.00n l=180.0n as=3.384e-13 ad=3.384e-13 \
+        ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 m=(1)*(1) \
+        par1=((1)*(1))
+    MP11 (SQIB CI net260 VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP4 (MQIB CIB net262 VDD) pe w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MP8 (SQIB CIB net261 VDD) pe w=715.00n l=180.0n as=3.432e-13 \
+        ad=3.432e-13 ps=2.39e-06 pd=2.39e-06 nrs=0.377622 nrd=0.377622 \
+        m=(1)*(1) par1=((1)*(1))
+    MP1 (MQIB CI net263 VDD) pe w=705.00n l=180.0n as=3.384e-13 \
+        ad=3.384e-13 ps=2.37e-06 pd=2.37e-06 nrs=0.382979 nrd=0.382979 \
+        m=(1)*(1) par1=((1)*(1))
+ends DFRRSHDX0_dupe
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: SAR_DFF
+// View name: schematic
+subckt SAR_DFF CLK COMP D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> \
+        D\<0\> RESETB DONE VDD VSS
+    I18 (VSS VSS DONE net019 RESETB net010 VDD VSS) DFRRSHDX0_dupe
+    I17 (DONE COMP D\<0\> net067 RESETB net014 VDD VSS) DFRRSHDX0_dupe
+    I16 (D\<0\> COMP D\<1\> net025 RESETB net018 VDD VSS) DFRRSHDX0_dupe
+    I15 (D\<1\> COMP D\<2\> net029 RESETB net022 VDD VSS) DFRRSHDX0_dupe
+    I14 (D\<2\> COMP D\<3\> net033 RESETB net026 VDD VSS) DFRRSHDX0_dupe
+    I13 (D\<3\> COMP D\<4\> net065 RESETB net030 VDD VSS) DFRRSHDX0_dupe
+    I12 (D\<4\> COMP D\<5\> net043 RESETB net034 VDD VSS) DFRRSHDX0_dupe
+    I11 (D\<5\> COMP D\<6\> net048 RESETB net038 VDD VSS) DFRRSHDX0_dupe
+    I10 (D\<6\> COMP D\<7\> net053 RESETB net2 VDD VSS) DFRRSHDX0_dupe
+    I8 (CLK X\<0\> net09 net010 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I7 (CLK X\<1\> X\<0\> net014 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I6 (CLK X\<2\> X\<1\> net018 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I5 (CLK X\<3\> X\<2\> net022 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I4 (CLK X\<4\> X\<3\> net026 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I3 (CLK X\<5\> X\<4\> net030 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I2 (CLK X\<6\> X\<5\> net034 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I1 (CLK X\<7\> X\<6\> net038 RESETB VDD VDD VSS) DFRRSHDX0_dupe
+    I0 (CLK VSS X\<7\> net2 VDD RESETB VDD VSS) DFRRSHDX0_dupe
+ends SAR_DFF
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: mux2_mockup
+// View name: schematic
+subckt mux2_mockup IN\<1\> IN\<0\> S VDD VOUT VSS
+    W1 (IN\<1\> VOUT S VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    W0 (IN\<0\> VOUT Sb VSS) relay vt1=100m vt2=600m ropen=1T rclosed=10
+    I0 (S Sb VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends mux2_mockup
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: XNOR_gate
+// View name: schematic
+subckt XNOR_gate A B OUT VDD VSS
+    I0 (net4 net5 OUT VDD VSS) OR2HDX0_dupe
+    I2 (A B net5 VDD VSS) AND2HDX0_dupe
+    I1 (net3 net2 net4 VDD VSS) AND2HDX0_dupe
+    I4 (B net2 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I3 (A net3 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n sx=4.8e-07 \
+        lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends XNOR_gate
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: SAR_FSM_HW
+// View name: schematic
+subckt SAR_FSM_HW VDD VSS adc_convert adc_done adc_resetb clk clk_dff \
+        clk_pga run_conversion
+    I36 (clk next_state\<1\> S\<1\> net1 VDD VDD VDD VSS) DFRRSHDX0_dupe
+    I0 (clk next_state\<0\> S\<0\> net5 VDD VDD VDD VSS) DFRRSHDX0_dupe
+    I28 (VSS net11 net12 VDD next_state\<1\> VSS) mux2_mockup
+    I6 (VDD VSS M_SEL_CONV\<1\> VDD adc_convert VSS) mux2_mockup
+    I4 (VSS VDD net12 VDD clk_pga VSS) mux2_mockup
+    I3 (VSS VDD net12 VDD adc_resetb VSS) mux2_mockup
+    I2 (VDD net14 net12 VDD next_state\<0\> VSS) mux2_mockup
+    I32 (VSS VSS net15 net13 next_state\<1\> M_SEL_CONV\<1\> \
+        M_SEL_CONV\<0\> VDD VSS) mux_mockup
+    I25 (VDD VSS net10 net9 next_state\<1\> M_SEL_IDLE\<1\> \
+        M_SEL_IDLE\<0\> VDD VSS) mux_mockup
+    I8 (VSS VSS net46 net41 next_state\<0\> M_SEL_IDLE\<1\> \
+        M_SEL_IDLE\<0\> VDD VSS) mux_mockup
+    I7 (VSS VDD net32 net27 next_state\<0\> M_SEL_CONV\<1\> \
+        M_SEL_CONV\<0\> VDD VSS) mux_mockup
+    I38 (clk adc_convert clk_dff VDD VSS) AND2HDX0_dupe
+    I24 (VDD run_conversion M_SEL_IDLE\<0\> VDD VSS) AND2HDX0_dupe
+    I23 (VDD adc_done M_SEL_CONV\<0\> VDD VSS) AND2HDX0_dupe
+    I11 (net63 net62 M_SEL_CONV\<1\> VDD VSS) AND2HDX0_dupe
+    I10 (net58 net57 net12 VDD VSS) AND2HDX0_dupe
+    I9 (net53 net52 M_SEL_IDLE\<1\> VDD VSS) AND2HDX0_dupe
+    I17 (S\<0\> VDD net63 VDD VSS) XNOR_gate
+    I16 (S\<1\> VSS net62 VDD VSS) XNOR_gate
+    I15 (S\<1\> VDD net57 VDD VSS) XNOR_gate
+    I14 (S\<0\> VSS net58 VDD VSS) XNOR_gate
+    I13 (S\<1\> VSS net52 VDD VSS) XNOR_gate
+    I12 (S\<0\> VSS net53 VDD VSS) XNOR_gate
+ends SAR_FSM_HW
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: EE140_Sp20_digital
+// View name: schematic
+subckt EE140_Sp20_digital CLK CLK_ADC CLK_PGA1 CLK_PGA2 COMP DAC\<7\> \
+        DAC\<6\> DAC\<5\> DAC\<4\> DAC\<3\> DAC\<2\> DAC\<1\> DAC\<0\> \
+        DONE ENABLE VDD VSS
+    I6 (net12 RESETB_BUF VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I5 (RESETB net12 VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    X_PGACLKGEN (CLK_PGA CLK_PGA1 CLK_PGA2 VDD VSS) clk_nonoverlapping
+    X_SAR (CLK_ADC COMP DAC\<7\> DAC\<6\> DAC\<5\> DAC\<4\> DAC\<3\> \
+        DAC\<2\> DAC\<1\> DAC\<0\> RESETB_BUF DONE VDD VSS) SAR_DFF
+    X_FSM (VDD VSS CONVERT DONE RESETB CLK CLK_ADC CLK_PGA ENABLE) \
+        SAR_FSM_HW
+ends EE140_Sp20_digital
+// End of subcircuit definition.
+
+// Library name: ee140_gsi
+// Cell name: zz_EE140_Sp20_system
+// View name: schematic
+NM0 (net4 net2 net1 net3) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+X_STUDENT (CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
+        D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> \
+        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA VDDD VPTAT 0) \
+        EE140_Sp20_studentMockup
+V4 (VDDD_IDEAL 0) vsource type=pulse edgetype=halfsine val0=0 \
+        val1=VDDD_IDEAL delay=0 rise=TR_D
+V1 (CLK 0) vsource type=pulse edgetype=halfsine val0=0 val1=1.8 \
+        period=1/FCLK rise=10n fall=10n width=.5/FCLK
+V3 (net8 0) vsource type=pulse edgetype=halfsine val0=0 val1=NBAT*VBAT \
+        rise=TRISE_BAT
+I22 (VDDD 0) isource type=pulse val0=1m val1=5m period=100n delay=10n \
+        rise=10n fall=10n width=30n
+E12 (B\<3\> 0 D\<3\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E11 (B\<1\> 0 D\<1\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E10 (B\<0\> 0 D\<0\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E9 (B\<2\> 0 D\<2\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E8 (B\<5\> 0 D\<5\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E7 (B\<4\> 0 D\<4\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E6 (B\<6\> 0 D\<6\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E5 (B\<7\> 0 D\<7\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E4 (G\<2\> 0 VDDD 0) vcvs gain=G_2
+E2 (G\<0\> 0 VDDD 0) vcvs gain=G_0
+E3 (G\<1\> 0 VDDD 0) vcvs gain=G_1
+E0 (S\<1\> 0 VDDD 0) vcvs gain=S_1 type=vcvs
+E1 (S\<0\> 0 VDDD 0) vcvs gain=S_0
+R0 (VBAT net8) resistor r=NBAT
+C0 (VDDD 0) capacitor c=1n
+V0 (EXT_IN\<1\> 0) vsource dc=VIN_1 type=dc
+V2 (EXT_IN\<0\> 0) vsource dc=VIN_0 type=dc
+V5 (V0P5 0) vsource dc=500.0m type=dc
+X_GSI (CLK CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
+        D\<3\> D\<2\> D\<1\> D\<0\> DONE VDDA VDDA 0) EE140_Sp20_digital
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=_EXPR_7 errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+save X_STUDENT.PGA_OUT X_STUDENT.MUX_OUT VDDD VDDA EXT_IN\<0\> D\<7\> \
+    D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> COMP CLK_PGA2 CLK_ADC \
+    B\<7\> B\<6\> B\<5\> B\<4\> B\<3\> B\<2\> B\<1\> B\<0\> \
+    X_GSI.RESETB_BUF X_GSI.X_FSM.S\<1\> X_GSI.X_FSM.S\<0\> \
+    X_GSI.X_FSM.I14.OUT X_GSI.X_FSM.I15.OUT X_GSI.X_FSM.next_state\<0\> \
+    X_GSI.X_FSM.next_state\<1\> 
+saveOptions options save=selected currents=selected

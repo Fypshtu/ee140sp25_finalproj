@@ -1,0 +1,5 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: VBATDIV4_mockup
+// View name: schematic
+subckt VBATDIV4_mockup_schematic VBAT VBATDIV4 VSS

@@ -1,0 +1,36 @@
+    C4 (net2 net016) capacitor c=4*C0
+    C7 (net2 net1) capacitor c=C0
+    C6 (net2 net014) capacitor c=C0
+    C8 (VOUT net2) capacitor c=C0
+    C5 (net2 net015) capacitor c=2*C0
+    W9 (net016 VSS CLK2_GATE\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W8 (VIN net016 X\<2\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W7 (VIN net015 X\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W6 (net015 VSS CLK2_GATE\<1\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W5 (VIN net014 X\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W4 (net014 VSS CLK2_GATE\<0\> VSS) relay vt1=200m vt2=400m ropen=1T \
+        rclosed=1.0
+    W3 (VSS VOUT CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W2 (VSS net2 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W1 (VIN net1 CLK1 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    W0 (net1 VSS CLK2 VSS) relay vt1=200m vt2=400m ropen=1T rclosed=1.0
+    X_AMP (VDD net2 VSS VOUT VSS) opamp_mockup Rout=0
+    I5 (G\<2\> CLK1 X\<2\> VDD VSS) AND2HDX0_dupe
+    I4 (G\<1\> CLK1 X\<1\> VDD VSS) AND2HDX0_dupe
+    I3 (G\<0\> CLK1 X\<0\> VDD VSS) AND2HDX0_dupe
+    I12 (CLK2 GB\<2\> CLK2_GATE\<2\> VDD VSS) OR2HDX0_dupe
+    I11 (CLK2 GB\<1\> CLK2_GATE\<1\> VDD VSS) OR2HDX0_dupe
+    I6 (CLK2 GB\<0\> CLK2_GATE\<0\> VDD VSS) OR2HDX0_dupe
+    I13 (G\<2\> GB\<2\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I9 (G\<0\> GB\<0\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+    I10 (G\<1\> GB\<1\> VDD VSS) invr_dupe GT_PDW=420n GT_PDL=180.00n \
+        sx=4.8e-07 lc=2.7e-07 GT_PUW=720n GT_PUL=180.00n
+ends PGA_mockup
+// End of subcircuit definition.

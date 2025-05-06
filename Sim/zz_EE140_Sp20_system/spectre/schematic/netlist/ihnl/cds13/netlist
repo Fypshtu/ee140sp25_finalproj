@@ -1,0 +1,3 @@
+    E0 (VBATDIV4 VSS VBAT VSS) vcvs gain=1/4 type=vcvs
+ends VBATDIV4_mockup
+// End of subcircuit definition.

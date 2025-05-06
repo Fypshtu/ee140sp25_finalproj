@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: AND2HDX0_dupe
+// View name: schematic
+subckt AND2HDX0_dupe A B OUT VDD VSS

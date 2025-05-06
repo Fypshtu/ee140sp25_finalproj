@@ -1,0 +1,14 @@
+    MN1 (out b VSS VSS) ne w=GT_PDW l=GT_PDL as=sx*(GT_PDW) ad=sx*(GT_PDW) \
+        ps=2*(sx+(GT_PDW)) pd=2*(sx+(GT_PDW)) nrs=lc/(GT_PDW) \
+        nrd=lc/(GT_PDW) m=(1)*(1) par1=((1)*(1))
+    MN2 (out a VSS VSS) ne w=GT_PDW l=GT_PDL as=sx*(GT_PDW) ad=sx*(GT_PDW) \
+        ps=2*(sx+(GT_PDW)) pd=2*(sx+(GT_PDW)) nrs=lc/(GT_PDW) \
+        nrd=lc/(GT_PDW) m=(1)*(1) par1=((1)*(1))
+    MP1 (out a net14 VDD) pe w=GT_PUW l=GT_PUL as=sx*(GT_PUW) \
+        ad=sx*(GT_PUW) ps=2*(sx+(GT_PUW)) pd=2*(sx+(GT_PUW)) \
+        nrs=lc/(GT_PUW) nrd=lc/(GT_PUW) m=(1)*(1) par1=((1)*(1))
+    MP2 (net14 b VDD VDD) pe w=GT_PUW l=GT_PUL as=sx*(GT_PUW) \
+        ad=sx*(GT_PUW) ps=2*(sx+(GT_PUW)) pd=2*(sx+(GT_PUW)) \
+        nrs=lc/(GT_PUW) nrd=lc/(GT_PUW) m=(1)*(1) par1=((1)*(1))
+ends nor2_dupe
+// End of subcircuit definition.

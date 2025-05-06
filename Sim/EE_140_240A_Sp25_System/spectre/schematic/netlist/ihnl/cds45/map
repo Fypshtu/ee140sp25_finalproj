@@ -1,0 +1,9 @@
+( ( model
+( "SAR_FSM_HW" "SAR_FSM_HW_schematic" )
+( "DFRRSHDX0_dupe" "DFRRSHDX0_dupe_schematic" )
+( "mux2_mockup" "mux2_mockup_schematic" )
+( "XNOR_gate" "XNOR_gate_schematic" )
+( "AND2HDX0_dupe" "AND2HDX0_dupe_schematic" )
+( "mux_mockup" "mux_mockup_schematic" )
+ )
+ )

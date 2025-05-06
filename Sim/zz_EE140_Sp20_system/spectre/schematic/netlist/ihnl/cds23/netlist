@@ -1,0 +1,38 @@
+
+// Library name: ee140_gsi
+// Cell name: zz_EE140_Sp20_system
+// View name: schematic
+NM0 (net4 net2 net1 net3) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+X_STUDENT (CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
+        D\<3\> D\<2\> D\<1\> D\<0\> EXT_IN\<0\> EXT_IN\<1\> G\<2\> G\<1\> \
+        G\<0\> S\<1\> S\<0\> VBAT VBATDIV4 VDDA VDDD VPTAT 0) \
+        EE140_Sp20_studentMockup
+V4 (VDDD_IDEAL 0) vsource type=pulse edgetype=halfsine val0=0 \
+        val1=VDDD_IDEAL delay=0 rise=TR_D
+V1 (CLK 0) vsource type=pulse edgetype=halfsine val0=0 val1=1.8 \
+        period=1/FCLK rise=10n fall=10n width=.5/FCLK
+V3 (net8 0) vsource type=pulse edgetype=halfsine val0=0 val1=NBAT*VBAT \
+        rise=TRISE_BAT
+I22 (VDDD 0) isource type=pulse val0=1m val1=5m period=100n delay=10n \
+        rise=10n fall=10n width=30n
+E12 (B\<3\> 0 D\<3\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E11 (B\<1\> 0 D\<1\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E10 (B\<0\> 0 D\<0\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E9 (B\<2\> 0 D\<2\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E8 (B\<5\> 0 D\<5\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E7 (B\<4\> 0 D\<4\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E6 (B\<6\> 0 D\<6\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E5 (B\<7\> 0 D\<7\> V0P5) vcvs gain=2 type=vcvs min=0 max=1
+E4 (G\<2\> 0 VDDD 0) vcvs gain=G_2
+E2 (G\<0\> 0 VDDD 0) vcvs gain=G_0
+E3 (G\<1\> 0 VDDD 0) vcvs gain=G_1
+E0 (S\<1\> 0 VDDD 0) vcvs gain=S_1 type=vcvs
+E1 (S\<0\> 0 VDDD 0) vcvs gain=S_0
+R0 (VBAT net8) resistor r=NBAT
+C0 (VDDD 0) capacitor c=1n
+V0 (EXT_IN\<1\> 0) vsource dc=VIN_1 type=dc
+V2 (EXT_IN\<0\> 0) vsource dc=VIN_0 type=dc
+V5 (V0P5 0) vsource dc=500.0m type=dc
+X_GSI (CLK CLK_ADC CLK_PGA1 CLK_PGA2 COMP D\<7\> D\<6\> D\<5\> D\<4\> \
+        D\<3\> D\<2\> D\<1\> D\<0\> DONE VDDA VDDA 0) EE140_Sp20_digital

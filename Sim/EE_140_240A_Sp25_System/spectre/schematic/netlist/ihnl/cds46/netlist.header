@@ -1,0 +1,7 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: EE_140_240A_Sp25_DigitalTop
+// View name: schematic
+subckt EE_140_240A_Sp25_DigitalTop_schematic CLK CLK_ADC CLK_PGA1 CLK_PGA2 \
+        COMP DAC\<7\> DAC\<6\> DAC\<5\> DAC\<4\> DAC\<3\> DAC\<2\> \
+        DAC\<1\> DAC\<0\> DONE ENABLE VDD VSS

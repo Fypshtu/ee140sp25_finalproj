@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: switch2_mockup
+// View name: schematic
+subckt switch2_mockup A B OUT PHIA PHIB VSS

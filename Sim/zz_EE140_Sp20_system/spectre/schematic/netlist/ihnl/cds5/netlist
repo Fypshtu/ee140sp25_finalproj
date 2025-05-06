@@ -1,0 +1,17 @@
+    ne (OUT net027 VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    MN1 (net027 A net029 VSS) ne w=420.0n l=180.0n as=2.016e-13 \
+        ad=2.016e-13 ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 \
+        m=(1)*(1) par1=((1)*(1))
+    MN2 (net029 B VSS VSS) ne w=420.0n l=180.0n as=2.016e-13 ad=2.016e-13 \
+        ps=1.8e-06 pd=1.8e-06 nrs=0.642857 nrd=0.642857 m=(1)*(1) \
+        par1=((1)*(1))
+    pe (OUT net027 VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+    MP1 (net027 A VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+    MP2 (net027 B VDD VDD) pe w=720.0n l=180.0n as=3.456e-13 ad=3.456e-13 \
+        ps=2.4e-06 pd=2.4e-06 nrs=0.375 nrd=0.375 m=(1)*(1) par1=((1)*(1))
+ends AND2HDX0_dupe
+// End of subcircuit definition.

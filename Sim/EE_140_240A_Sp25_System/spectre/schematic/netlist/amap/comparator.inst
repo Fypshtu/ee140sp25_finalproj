@@ -1,0 +1,11 @@
+HEADER
+"PSFversion" "1.00"
+"I0n" "strongARM_latch"
+"I4n I3n I2n I1n" "inverter_adc"
+"NM1n NM0n" "sky130_fd_pr_main_nfet_01v8_spectre"
+"OUTv" ":1v"
+"GNDv" ":2v"
+"VDDAv" ":3v"
+"CKv" ":4v"
+"Vin1v" ":5v"
+"Vin2v" ":6v"

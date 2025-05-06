@@ -1,0 +1,13 @@
+HEADER
+"PSFversion" "1.00"
+"MN10n MN14n MN2n MN6n MN13n MN7n MN15n MN9n MN1n MN5n MN11n MN16n MN12n MN8n MN3n MN4n" "PRIMLIB_ne_spectre"
+"MP3n MP14n MP10n MP6n MP9n MP7n MP13n MP12n MP5n MP2n MP11n MP4n MP8n MP1n" "PRIMLIB_pe_spectre"
+"I0n I2n I1n I3n" "invr_dupe_schematic"
+"Cv" ":1v"
+"Dv" ":2v"
+"Qv" ":3v"
+"QNv" ":4v"
+"RNv" ":5v"
+"SNv" ":6v"
+"VDDv" ":7v"
+"VSSv" ":8v"

@@ -1,0 +1,4 @@
+simulator lang=spectre
+include "ne.scs"
+include "nfet_01v8.scs"
+include "pe.scs"

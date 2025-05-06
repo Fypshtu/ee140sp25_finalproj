@@ -1,0 +1,11 @@
+    I0 (net5 net4 GND VDDA CK Vin1 Vin2) strongARM_latch
+    I4 (net13 GND VDDA OUT) inverter_adc
+    I3 (OUT GND VDDA net13) inverter_adc
+    I2 (net12 GND VDDA net4) inverter_adc
+    I1 (net9 GND VDDA net5) inverter_adc
+    NM1 (OUT net12 GND GND) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+    NM0 (net13 net9 GND GND) nfet_01v8 w=(420n) l=150n as=111.3f ad=111.3f \
+        ps=1.37u pd=1.37u m=(1)*(1)
+ends comparator
+// End of subcircuit definition.

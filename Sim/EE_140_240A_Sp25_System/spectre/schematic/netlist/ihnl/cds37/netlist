@@ -1,0 +1,6 @@
+    X_CAPDAC (D\<7\> D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> LOAD \
+        VDAC VDD VIN VREF VSS COMPARE) capdac_mockup_schematic C0=1f
+    I3 (net1 VSS VDD CLK) inverter_adc
+    I2 (COMP_OUT VSS VDD net1 VREF VDAC) comparator
+ends ADC_mockup_schematic
+// End of subcircuit definition.

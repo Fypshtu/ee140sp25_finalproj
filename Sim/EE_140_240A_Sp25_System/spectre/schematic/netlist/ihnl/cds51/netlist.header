@@ -1,0 +1,5 @@
+
+// Library name: proj
+// Cell name: strongARM_latch
+// View name: schematic
+subckt strongARM_latch X Y GND VDDA CK Vin1 Vin2

@@ -1,0 +1,5 @@
+( ( model
+( "ADC_mockup" "ADC_mockup_schematic" )
+( "capdac_mockup" "capdac_mockup_schematic" )
+ )
+ )

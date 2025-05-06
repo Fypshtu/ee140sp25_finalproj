@@ -1,0 +1,4 @@
+    W1 (OUT A PHIA VSS) relay vt1=100m vt2=600m ropen=1M rclosed=10
+    W0 (OUT B PHIB VSS) relay vt1=100m vt2=600m ropen=1M rclosed=10
+ends switch2_mockup
+// End of subcircuit definition.

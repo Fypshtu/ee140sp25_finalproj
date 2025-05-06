@@ -1,0 +1,5 @@
+
+// Library name: ee140_gsi
+// Cell name: VBATDIV4_mockup
+// View name: schematic
+subckt VBATDIV4_mockup VBAT VBATDIV4 VSS

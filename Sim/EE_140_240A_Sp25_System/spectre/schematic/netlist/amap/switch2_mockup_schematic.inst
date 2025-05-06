@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"W1n W0n" "analogLib_switch_spectre"
+"Av" ":1v"
+"Bv" ":2v"
+"OUTv" ":3v"
+"PHIAv" ":4v"
+"PHIBv" ":5v"
+"VSSv" ":6v"

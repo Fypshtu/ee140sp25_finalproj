@@ -1,0 +1,5 @@
+
+// Library name: EE_140_240A_Final_Project
+// Cell name: mux2_mockup
+// View name: schematic
+subckt mux2_mockup_schematic IN\<1\> IN\<0\> S VDD VOUT VSS

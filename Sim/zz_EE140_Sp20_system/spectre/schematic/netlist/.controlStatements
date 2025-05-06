@@ -1,0 +1,17 @@
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 temp=27 \
+    tnom=27 scalem=1.0 scale=1.0 compatible=spice2 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=_EXPR_7 errpreset=conservative write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+save X_STUDENT.PGA_OUT X_STUDENT.MUX_OUT VDDD VDDA EXT_IN\<0\> D\<7\> \
+    D\<6\> D\<5\> D\<4\> D\<3\> D\<2\> D\<1\> D\<0\> COMP CLK_PGA2 CLK_ADC \
+    B\<7\> B\<6\> B\<5\> B\<4\> B\<3\> B\<2\> B\<1\> B\<0\> \
+    X_GSI.RESETB_BUF X_GSI.X_FSM.S\<1\> X_GSI.X_FSM.S\<0\> \
+    X_GSI.X_FSM.I14.OUT X_GSI.X_FSM.I15.OUT X_GSI.X_FSM.next_state\<0\> \
+    X_GSI.X_FSM.next_state\<1\> 
+saveOptions options save=selected currents=selected
